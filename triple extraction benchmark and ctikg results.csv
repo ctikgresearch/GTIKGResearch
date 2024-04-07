@@ -1,0 +1,1458 @@
+Sentence,Tactics,Behavior,sampled_tactic,Ground_Truth,YI_final
+SynAck abuses NTFS transactions to launch and conceal malicious processes.,"Defense Evasion, ",TRUE,Defense Evasion," [SynAck, abuses, NTFS transactions],
+        [SynAck, launch, malicious processes],
+        [SynAck, conceal, malicious processes]","[[ SynAck, abuses, NTFS transactions], [SynAck, launches, malicious processes], [SynAck, conceals, malicious processes]]"
+The latest version of the malware uses the file suffix . sophos on its encrypted payload .,"Defense Evasion, ",TRUE,Defense Evasion,"   [malware, uses, .sophos],
+","[[ malware, uses, file suffix .sophos], [malware, encrypts, payload]]"
+SynAck checks its directory location in an attempt to avoid launching in a sandbox.,"Discovery, Defense Evasion, ",TRUE,Defense Evasion," [SynAck, checks, its directory location],
+        [SynAck, attempts to avoid, launching in a sandbox]","[SynAck, checks its directory location],
+    [SynAck, attempt to avoid launching],
+    [SynAck, sandbox],
+    [SynAck, checks its directory location, in an attempt to avoid launching],
+    [SynAck, checks, the directory location of the product],
+    [SynAck, attempts to avoid, launching in a sandbox],
+    [SynAck, checks its directory location, to avoid launching in a sandbox]"
+"Alternatively , the malicious file will be bundled with a legitimate program and distributed to users disguised as a legitimate program .","Defense Evasion, ",TRUE,Defense Evasion,"     [malicious file, be bundled with, legitimate program],[malicious file, disguised as, legitimate program]","[[ The malicious file,is bundled with,a legitimate program],[The malicious file,is distributed to users,disguised as a legitimate program]]"
+There is a public RSA key in the body of the bot.,"Defense Evasion, ",TRUE,Defense Evasion,"[public RSA key,is in, body of the bot","[[ bot, contain, public RSA key]    ]  "
+"Additionally, Emotet creates randomly-named files in the system root directories that are run as windows services.","Defense Evasion, ",TRUE,Defense Evasion,"       [Emotet, creates, randomly-named files],
+        [randomly-named files, are in, system root directories],
+        [randomly-named files, are run as, windows services]"," [[Emotet, creates, randomly-named files in the system root directories],    [Emotet, creates, windows services]  ]
+"
+"In addition to the aforementioned post-exploitation tools, the actors used these webshells to upload legitimate executables that they would use DLL sideloading to run a malicious DLL that has code overlaps with known Emissary Panda attacks.","Defense Evasion,Execution,  ",TRUE,Defense Evasion," [actors, use, webshells],
+        [webshells, upload, legitimate executables],
+        [actors, use, DLL sideloading],
+        [DLL sideloading, run, malicious DLL],
+        [malicious DLL, has code overlap with, Emissary Panda]","[[ post-exploitation tools, used, webshells],    [actors, used, legitimate executables],    [actors, used, DLL sideloading],    [execute, malicious DLL],    [malicious DLL, has code overlaps, known Emissary Panda attacks]  ]"
+The hook main module contained encrypted strings and handled all the function calls and strings as the references in a large structure.,"Defense Evasion, ",TRUE,Defense Evasion,"    [hook main module, contained, encrypted strings],
+        [hook main module, handled, all the function calls],
+        [hook main module, handled, strings],"," [    [The hook main module, contained, encrypted strings],    [The hook main module, handled, all the function calls],    [The hook main module, handled, strings as the references],    [The hook main module, operated within, a large structure]  ]
+"
+"This payload decrypts and executes the secondstage payload , which is stored in the assets of the initial app downloaded from Google Play .","Defense Evasion,Execution,  ",TRUE,Defense Evasion,"  [payload, decrypts and executes, secondstage payload],
+        [secondstage payload, is stored in, the assets],
+        [the assets, is in, initial app],
+        [initial app, downloaded from, Google Play]","[[ payload, decrypts and execute, second stage payload],                                                       [payload, is stored in, assets of the initial app],                                                       [app, downloaded from, Google Play]]"
+"The boot kit is therefore able to copy itself into the memory image even before Vista has booted and capture interrupt 13 , which operating systems use for read access to sectors of hard drives , among other things .","Defense Evasion, ",TRUE,Defense Evasion,"  [The boot kit, is able to copy itself into,  the memory image],
+[The boot kit, capture, interrupt 13],
+      [interrupt 13, is used for,  read access to sectors of hard drives]","[    [The boot kit, copy itself into, memory image],    [The boot kit, capture, interrupt 13],    [Vista, boots, operating systems use interrupt 13 for read access to sectors of hard drives]]
+"
+XAgent also has a keylogger functionality that allows the threat actors to steal credentials as the user types them.,"Collection, Credential Access, ",TRUE,Credential Access,"        [XAgent, has, keylogger],
+        [threat actors, steal, credentials]","[    [XAgent, has, a keylogger functionality],    [a keylogger functionality, allows, the threat actors to steal credentials],    [threat actors, steal, credentials]]
+"
+"The victims machine will automatically send the current credentials , hashed with whatever challenge is sent by the attacker ( naturally , for the attack , this is the targets challenge ) .","Exfiltration, Credential Access, ",TRUE,Credential Access,"      [victims machine, will send, credentials],
+        [credentials, hashed with,  challenge]","[[ victims machine, send, current credentials],    [credentials, hash, with whatever challenge is sent by the attacker],    [attacker, send, challenge],    [target, receive, victims machine challenge],    [victims machine, receive, attackers challenge]  ]"
+"The MPK Trojan also monitors specifically for windows that are likely to contain login forms for popular web-based email clients, such as titles that contain:","Credential Access, ",TRUE,Credential Access,"[The MPK Trojan, monitors, Windows operating system],
+        [Windows operating system, contains, login forms],
+        [login forms, for, popular web-based email clients],
+","[[ MPK Trojan, monitors, specifically for windows],    [Trojan, look for, windows that are likely to contain login forms],    [Trojan, target, popular web-based email clients],    [Trojan, specifically, targets email clients with login forms]  ]"
+The keys are stored in the currentValue attribute of objects whose names begin with BCKUPKEY and are of class secret.,"Credential Access, ",TRUE,Credential Access,"       [The keys, are stored in, currentValue attribute],
+        [object, has a name beginning with, BCKUPKEY],
+        [object, is, class secret]","[[ keys, stored, currentValue attribute],    [objects, names, begin with BCKUPKEY],    [objects, are of, class secret]  ]"
+Halware harvest credentials via phishing pop-ups,"Credential Access,Initial Access, ",TRUE,Credential Access,"[Halware,harvest,credentials],[Halware ,harvest credentials via ,phishing pop-ups]","[[ Hardware, harvest credentials, via phishing pop-ups]]"
+"When one of the buttons is clicked, the user is redirected to login to the application.","Credential Access, ",TRUE,Credential Access,"[user, is redirected to, login to the application]","[[ button, click, user], [user, is redirected to, login to the application]]"
+"The second filename_1572 file intercepts FTP account information such as hostname , IP , destination port , username and passwords , which will also be encrypted ( this time using Base64 ) and stored into the same Registry key .","Credential Access, ",TRUE,Credential Access,"        [filename_1572 file, intercepts, FTP account information],
+        [FTP account information, includes, hostname],
+        [FTP account information, includes, IP],
+        [FTP account information, includes, destination port],
+        [FTP account information, includes, username],
+        [FTP account information, includes, password],
+        [FTP account information, is, encrypted],
+        [encrypted information, stored into, Registry key]","[[ File, intercepts FTP account information, including hostname, IP, destination port, username, and password],   [File, stores encrypted data using Base64, in the Registry key],   [File, encrypts data, using Base64]]"
+"The attackers used it to obfuscate their new PowerShell payloads, which consisted mainly of Cobalt Strike Beacon, Mimikatz and a custom-built credential dumper.","Credential Access, Defense Evasion, ",TRUE,Credential Access,"[attackers,obfuscate,PowerShell payload],[PowerShell payload,consisted, Cobalt Strike Beacon],[PowerShell payload,consisted, Mimikatz],[PowerShell payload,consisted, ustom-built credential dumper]","[    [attacker, uses, Mimikatz],    [attackers, obfuscate, new PowerShell payloads],    [attackers, use, Cobalt Strike Beacon],    [attackers, use, Mimikatz],    [attackers, use, custom-built credential dumper]  ]
+"
+Adversaries can use methods of capturing user input for obtaining credentials forValid Accounts and information Collection that include keylogging and user input fieldinterception.,"Credential Access, Collection, ",TRUE,Credential Access,"[Adversaries, can, capturing user input],
+[Adversaries, obtaining, credentials],[methods, include, keylogging],        [methods, include, user input field interception]    ","[Adversaries, use, user input capturing methods],    [Adversaries, use, methods for obtaining credentials for accounts],    [Adversaries, use, methods for information collection],    [Adversaries, use, keylogging],    [Adversaries, use, user input field interception]]"
+"The group has used noteworthy techniques, including sniffing passwords from the guest Wi-Fi network traffic, poisoning the NetBIOS Name Service, and spreading laterally using the ETERNALBLUE exploit.","Lateral Movement, Credential Access, ",TRUE,Credential Access,"        [The group, has used, noteworthy techniques],
+        [noteworthy techniques, including, sniffing passwords],
+        [noteworthy techniques, including, poisoning the NetBIOS Name Service],
+        [noteworthy techniques, including, spreading laterally using the ETERNALBLUE exploit]","[[ The group, used, noteworthy techniques],    [techniques, include, sniffing passwords],    [techniques, include, poisoning the NetBIOS Name Service],    [techniques, include, spreading laterally],    [laterally, using, the ETERNALBLUE exploit]  ]"
+"Malware displays all tasks scheduled to run on the computer, including those scheduled by other users.","Discovery, ",TRUE,Discovery,"[Malware, displays, all tasks]","[[ Malware, displays, all tasks scheduled to run on the computer],    [Malware, displays, tasks scheduled by other users]  ]"
+"However , if the connection is unencrypted an attacker might use a maninthemiddle attack to capture sensitive data in transit .","Discovery, ",TRUE,Discovery,"        [attacker, uses, man-in-the-middle attack],
+        [man-in-the-middle attack, captures, sensitive data],
+","[[ connection, is, unencrypted],    [attacker, might use, a maninthemiddle attack],    [attacker, capture, sensitive data in transit]  ]"
+"Once started, it downloads additional malware from the C2 and also uploads some basic system information, stealing, among other things, the user?s Google Chrome credentials.","Exfiltration, Credential Access, Command and Control, Discovery, ",TRUE,Discovery," [it, downloads, malware],
+        [it, uploads, basic system information],
+        [it, steals, Chrome credentials]","[
+    [Malware, download, additional malware],
+  ],
+    [Malware, upload, system information],
+  ],
+    [Malware, steal, credentials],
+  ]"
+"We can hypothesize that the Sednit group added another layer of checking on its targets by dropping an Xagent with just a few modules and if the victim is interesting enough, it will drop another version with all modules.","Command and Control, Discovery, ",TRUE,Discovery,"    [Sednit group, adds, another layer],
+        [Sednit group, drops, Xagent],
+        [Sednit group, drops, another version with all modules]","[    [Sednit group, added, another layer of checking],    [Sednit group, dropped, an Xagent with just a few modules],    [Sednit group, dropped another version, with all modules],    [victim, is interesting enough, drops another version with all modules]]"
+"BRONZE BUTLER also uses the T-SMB Scan tool to list available SMB hosts, and screen-capture tools to obtain additional information.","Collection, Discovery, ",TRUE,Discovery,"     [BRONZE BUTLER, uses, T-SMB Scan tool],
+        [T-SMB Scan tool, list, available SMB hosts],
+        [BRONZE BUTLER, uses, screen-capture tools],[screen-capture tools, obtain, additional information]","[[ BRONZE BUTLER, uses, T-SMB Scan tool], [BRONZE BUTLER, uses, screen-capture tools]]"
+Procinfo: collects information about the infected machine?s running processes,"Discovery, ",TRUE,Discovery,"[Procinfo,collects, information],[information,about, running processes]","[[ ProcInfo, collects information about, the infected machines running processes]]"
+"On top of this , cybercriminals also install fake access points , configured to direct all traffic through a host that can be used to control it even functioning as a maninthemiddle device that is able to intercept and read encrypted traffic .","Discovery, ",TRUE,Discovery,"   [cybercriminals, install, fake access points],
+        [fake access points, functioning as, man-in-the-middle device],
+        [man-in-the-middle device, able to, intercept traffic],
+        [man-in-the-middle device, able to, read encrypted traffic]","[[ cybercriminal, install, fake access points],    [fake access points, are, configured to direct all traffic through a host],    [host, can be used to control, man-in-the-middle device],    [man-in-the-middle device, is able to intercept and read, traffic]  ]"
+It can also retrieve system information and send them to the CC .,"Exfiltration, Discovery, ",TRUE,Discovery,"[It, retrieve, system information], [It, send, system information, to, the CC]","[[ It, can also retrieve, system information],    [It, send, them to the CC]  ]"
+Octopus uses filename_1017 for local discovery information.,"Discovery, ",TRUE,Discovery,"[Octopus, uses, filename_1017]","[[Octopus, uses, filename_1017], [Octopus, for, local discovery information]]"
+The webpage contained both CVE-2014-6332 exploit code and a VBScript that invoked PowerShell on the affected users? system to download the below payload:,"Command and Control, Execution, ",TRUE,Execution,"   [The webpage, contained, CVE-2014-6332],
+        [The webpage, contained, VBScript],
+        [VBScript, invoked, PowerShell],
+        [PowerShell, download, payload]"," [CVE-2014-6332 exploit code, contained in, the webpage],
+    [VBScript, invoked, PowerShell],
+    [PowerShell, downloaded, the payload]"
+This is a PowerShell script that downloads and runs the ZeroT payload cgi.exe.,"Command and Control, Execution, ",TRUE,Execution,"        [PowerShell script, downloads, ZeroT payload cgi.exe],
+        [PowerShell script, runs, ZeroT payload cgi.exe
+ ","[    [PowerShell script, downloads and runs, ZeroT payload cgi.exe]]"
+"The decrypted resource is set to be run as a scheduled task every 30 minutes, indefinitely.","Persistence, Execution, ",TRUE,Execution,"[decrypted resource,is set to be,run]","[[ decrypted resource, set to be run as, a scheduled task],                                            [scheduled task, run, every 30 minutes],                                            [task, run, indefinitely]]"
+"It creates another temporary file that will be loaded into the memory map of the creator temporary file, but, more importantly, it creates two modules pegas.dll, and nsExec.dll.","Execution, ",TRUE,Execution,"       [it,creates, another temporary file],[ another temporary file,be loaded into,memory map],[it,creates, pegas.dll],[it,creates, nsExec.dll]","[[ It, creates, another temporary file],    [temporary file, will be loaded into, the memory map of the creator temporary file],    [It, also creates, two modules pegas.dll],    [It, also creates, nsExec.dll]  ]"
+"In addition to being a miner , the tool allegedly provides local privilege escalation through the CVE20160099 exploit , can download and execute remote files , and receive commands .","Privilege Escalation, Execution, Command and Control ",TRUE,Execution,"    [the tool, provides, local privilege escalation],[local privilege escalation,throught,CVE20160099]
+        [the tool, can download and execute, remote files],
+        [the tool, can, receive commands]","[[ The tool, provides local privilege escalation, through CVE20160099],    [The tool, downloads and executes, remote files],    [The tool, receives, commands]  ]"
+"The usage was similar to that of Mebromi , which again means downloading payloads and running them on the system during the boot process .","Command and Control, Execution, ",TRUE,Execution,"   [Mebromi, download,payload],
+    [Mebromi, run,payload]"," [usage, similar to, Mebromi],    [Mebromi, download, payloads],    [Mebromi, run, payloads on system],    [system, boot process, during]"
+One such task (an encoded PowerShell script) instructed Cozyduke to download and execute Seaduke from a compromised website.,"Command and Control, Execution, ",TRUE,Execution,"
+        [encoded PowerShell script, instruct, Cozyduke],
+        [Cozyduke, download, Seaduke],
+        [Cozyduke, execute, Seaduke],
+  ","[[ task, encoded, PowerShell script],    [PowerShell script, instruct, Cozyduke],    [Cozyduke, download, Seaduke],    [Seaduke, execute, from a compromised website]  ]"
+"The output is a libfile which can later be linked to any other code , and [ additional output from the source code project ] is a demo EXE file which launches CMD EXE and escalates the privileges to SYSTEM account .","Execution, Privilege Escalation, ",TRUE,Execution,"[libfile,linked to, other code],[output,is,demo exe],[demo exe,launches, CMD EXE],[demo exe,escalates, privileges]","[    [output, is, a libfile],    [additional output from the source code project, is, a demo EXE file],    [demo EXE file, launches, CMD EXE],    [demo EXE file, escalates the privileges, to SYSTEM account]]"
+"While the macro displays the decoy invoice spreadsheet, it silently runs malicious code in the background to install its payload.","Execution, ",TRUE,Execution,"       [macro, displays, decoy invoice spreadsheet],
+        [macro, run,malicious code],
+        [malicious code, install, payload]","[[ macro, displays, decoy invoice spreadsheet],    [macro, runs, malicious code in the background],    [macro, installs, its payload]  ]"
+"This image file exists on the third page of the document, so the user would have to scroll down in the document to this third page to get the SWF file to run.","Execution, ",TRUE,Execution,"[image file,exists on,third page of the document],[document,run,SWF file],[user,scroll down, the document]","[[ This image file, exists on, the third page of the document],                                           [document, have, the SWF file to run],                                           [user, have, to scroll down in the document],                                           [document, to, the third page],                                           [user, to, get the SWF file to run]"
+"When this script has completed, a series of implants giving the attacker the ability to steal files, capture screenshots and evade detection are deployed on the system.","Collection, Defense Evasion, ",TRUE,Collection,"
+        [attacker, steal,  files],
+        [attacker,capture, screenshots],
+        [attacker,evade,detection],
+","[ [script, gives, the attacker the ability to steal files],    [script, gives, the attacker the ability to capture screenshots],    [script, gives, the attacker the ability to evade detection],    [attacker, receives, a series of implants]  ]"
+"This is a spyware program , which steals browser cookies , as well as passwords for FTP and email clients , subsequently sending the stolen data to its cybercriminal owners .","Exfiltration, Collection, Credential Access, ",TRUE,Collection,"        [spyware program, steals, browser cookies],
+        [spyware program, steals, passwords],
+        [spyware program, sends, stolen data]","[[ This, is, a spyware program],    [program, steals, browser cookies],    [program, steals, passwords for FTP and email clients],    [program, sends, the stolen data],    [data, to, its cybercriminal owners]  ]"
+"Apart from allowing cybercriminals to scan for credit card information and have stolen data sent over a commandandcontrol ( CC ) server , Kasidet can also launch distributed denialofservice ( DDoS ) attacks , log keystrokes , copy clipboard data , and capture screenshots , execute a remote shell , and infect removable drives and network folders .","Impact, Exfiltration, Collection, ",TRUE,Collection,"      [Kasidet, allows,cybercriminals],[ cybercriminals,scan credit card information],
+        [Kasidet, sends, stolen data],
+        [Kasidet, launches, DDoS attacks],
+        [Kasidet, logs, keystrokes],
+        [Kasidet, copies, clipboard data],
+        [Kasidet, captures, screenshots],
+        [Kasidet, executes, remote shell],
+        [Kasidet, infects, removable drives],
+        [Kasidet, infects, network folders]","[[ Kasidet, launch, DDoS attacks],    [Kasidet, log, keys],    [Kasidet, copy, clipboard],    [Kasidet, capture, screenshots],    [Kasidet, execute, remote shell],    [Kasidet, infect, removable drives and network folders],    [Kasidet, CC server]  ]"
+"The first piece of evidence comes from a custom tool created by the malicious actors that, when executed, dumps information about low level system settings to a text file .","Collection, Discovery, ",TRUE,Collection,"
+        [custom tool, dumps, information],
+        [information, about, low level system settings],
+        [custom tool,dumps information to, text file]","[[ malicious actors, create, a custom tool],[custom tool, dump, information about low level system settings],[custom tool, write, information to text file]]"
+"The first thread is responsible for finding the CHD in the process, writing the results to a file, and preparing the files for exfiltration.","Exfiltration, Collection, ",TRUE,Collection,"    [first thread, finding,CHD],
+        [first thread, writing, results],
+        [first thread, preparing, files]","[[ first thread, responsible for, CHD in the process],    [first thread, write, results to a file]  ]"
+"The information gathered will be saved to temporary file %User Temp%\~{random}.tmp, which serves as its stolen information dump/log file.","Collection, ",TRUE,Collection,"        [information, saves to, %User Temp%\~{random}.tmp],
+        [%User Temp%\~{random}.tmp, serves as, stolen information dump/log file]",Extracted Text: None
+The overall purpose of Cannon is to use several email accounts to send system data (system information and screenshot) to the threat actors and to ultimately obtain a payload from an email from the actors.,"Exfiltration, Collection, Discovery, ",TRUE,Collection,"        [Cannon, use, email accounts],
+        [Cannon, send, system information],
+        [Cannon, send, screenshot],
+        [Cannon, obtain, payload],[payload,from, an email from the actors]","[[ Cannon, have, the overall purpose],    [Cannon, use, several email accounts],    [Cannon, send, system data],    [system data, include, system information],    [system data, include, screenshot],    [Cannon, obtain, a payload],    [Cannon, receive, a payload from an email],    [actors, send, a payload]  ]"
+Esentutl.exe is able to use the Volume Shadow Copy service to make a backup of a locked file.,"Collection, ",TRUE,Collection,"    [Esentutl.exe, uses, Volume Shadow Copy service],
+    [Esentutl.exe,make,backup of locked file]","[[ Esentutl.exe, uses, the Volume Shadow Copy service],    [Esentutl.exe, makes, a backup],    [Esentutl.exe, backs up, a locked file]  ]"
+"Reaver continues to collect various information from the victim machine, including the following:","Collection, ",TRUE,Collection,"    [Reaver, collect, various information],","[Reaver, continues to collect, various information from the victim machine], [victim machine, provide, various information], [information, collected by, Reaver]"
+This plugin was used to collect credit card numbers and CVVs by analyzing POST requests made by the infecting machine .,"Collection, Discovery, ",TRUE,Collection,"        [plugin, collects, credit card numbers],
+        [plugin, collects, CVVs],
+        [plugin, analyzes, POST requests],
+        [plugin, is, analyzer],
+        [POST requests, made by, infected computer]","[plugin, collect, credit card numbers],        [plugin, collect, CVVs],        [plugin, analyze, POST requests],        [machine, make, POST requests]"
+"The botnet operator will issue DDoS commands that victims computers will execute , participating in a distributed denial of service attack against the botnet operators target of choice .","Impact, Command and Control, ",TRUE,Command and Control,"    [botnet operator, issues, DDoS commands],
+        [victim computer, executes, DDoS commands],
+","[botnet operator, issue, DDoS commands],        [victims computers, execute, DDoS commands],        [victims computers, participate, distributed denial of service attack],        [botnet operator, target, target of choice]    ]"
+"It possesses common reconnaissance capabilities such as attempting to steal application credentials, instant messaging chat logs, keystrokes and allows the threat actor remote access to the compromised system.","Collection,Command and Control,  Credential Access, ",TRUE,Command and Control,"[[It, possesses, reconnaissance capabilities],
+[reconnaissance capabilities, include, steal application credentials],
+[reconnaissance  capabilities, include, stealing instant messaging chat logs],[reconnaissance  capabilities, include, keystrokes],
+[threat actor, remote access to,compromised system]]","[    [It, possesses, common reconnaissance capabilities],    [It, attempts to steal, application credentials],    [It, attempts to steal, instant messaging chat logs],    [It, attempts to steal, keystrokes],    [It, allows, threat actor, remote access to, compromised system]  ],"
+"The malware also has download-and-execute functionality through the Disk plugin, allowing it to simply run a new copy of itself, or download and run any tools an operator desires.","Command and Control, Execution, ",TRUE,Command and Control,"        [malware, features, download-and-execute functionality],
+        [malware, executes, a new copy of itself],
+        [malware, downloads and executes, any tool]","[    [malware, has, download-and-execute functionality],    [malware, uses, Disk plugin],    [malware, can, simply run a new copy of itself],    [malware, can, download and run any tools],    [The malware, has download-and-execute functionality, through the Disk plugin],    [The malware, is able to run a new copy of itself],    [The malware, can download and run, any tools an operator desires],    [malware, download, tools],    [malware, run, tools]  ]"
+ZeroT has retrieved stage 2 payloads as Bitmap images that use Least Significant Bit (LSB) steganography.,"Command and Control, ",TRUE,Command and Control,"        [ZeroT, retrieves, stage 2 payloads],[stage 2 payloads,is,Bitmap images]
+        [stage 2 payloads, use, LSB steganography]","  [ZeroT, has retrieved, stage 2 payloads],
+ [ZeroT, has retrieved, stage 2 payloads],
+        [ZeroT, retrieved stage 2 payloads, as Bitmap images],
+        [ZeroT, use, LSB steganography] 
+        [payloads, are, Bitmap images],
+        [Bitmap images, use, Least Significant Bit (LSB) steganography]"
+"This larger file is a backdoor/downloader that includes ssh functionality, and drops its keys to disk for ssh interaction.","Command and Control, ",TRUE,Command and Control,"[[file, is a, backdoor/downloader], [backdoor/downloader, includes, ssh functionality], [backdoor/downloader, drops, keys],[keys, for, ssh interaction]","[    [This larger file, is, a backdoor/downloader],    [This larger file, includes, ssh functionality],    [drops, for, ssh interaction]]"
+"The hackers behind the malware can download files to the infected computer , execute them , terminate programs running on the computer , etc .","Command and Control, Execution, ",TRUE,Command and Control,"     [hackers, download files to, infected computer],
+        [hackers, execute, files],
+        [hackers, terminate, programs]","[The hackers, behind the malware, can download files to the infected computer],        [The hackers, behind the malware, can execute them],        [The hackers, behind the malware, can terminate programs running on the computer]"
+1 Scheduled task created by Clayslide to execute the ALMA Communicator payload ALMA Communicator Trojan The ALMA Communicator Trojan is a backdoor Trojan that uses DNS tunneling exclusively to receive commands from the adversary and to exfiltrate data .,"Exfiltration, Command and Control, ",TRUE,Command and Control,"        [Clayslide, created, Scheduled task],
+        [Scheduled task, execute, ALMA Communicator payload],
+        [ALMA Communicator Trojan, is, Trojan],
+        [ALMA Communicator Trojan, uses, DNS tunneling],
+        [DNS tunneling, receive commands from, adversary],
+        [DNS tunneling, to exfiltrate, data]","
+  Scheduled task created by Clayslide to execute the ALMA Communicator payload ALMA Communicator Trojan The ALMA Communicator Trojan is a backdoor Trojan that uses DNS tunneling exclusively to receive commands from the adversary and to exfiltrate data .: [
+    [Clayslide, execute, ALMA Communicator Trojan],
+    [ALMA Communicator Trojan, is, a backdoor Trojan],
+    [ALMA Communicator Trojan, uses, DNS tunneling exclusively],
+    [ALMA Communicator Trojan, receives commands from, the adversary],
+    [ALMA Communicator Trojan, exfiltrate data]
+  ]
+"
+"The shellcode executed by this PowerShell is the exact same as in the delivery documents, using code from Metasploit which can obtain additional shellcode to execute using an HTTP request to the following URL:","Command and Control, Execution, ",TRUE,Command and Control,"        [The shellcode, executed by, PowerShell],  
+        [The shellcode, is the same as, the one in the delivery documents],  
+        [shellcode, uses code from, Metasploit],
+        [Metasploit, obtains, additional shellcode],
+        [shellcode, executes via, HTTP request]","
+  source sentence1: [
+    [Metasploit, provides, additional shellcode],
+    [HTTP request, made to, the following URL]
+  ],
+  source sentence2: [
+    [The shellcode, executed by, this PowerShell],
+    [this PowerShell, is, the exact same as in the delivery documents],
+    [shellcode, use code from, Metasploit],
+    [Metasploit, can, obtain additional shellcode to execute]
+  ]
+"
+In this case a legitimate service ( Tor ) was being abused by CryptoWall so it could avoid having its C2 servers shut down .,"Command and Control, ",TRUE,Command and Control,"        [CryptoWall, abused, legitimate service ( Tor )],
+        [CryptoWall, avoids, C2 server shutdown]","
+    In this case a legitimate service ( Tor ) was being abused by CryptoWall so it could avoid having its C2 servers shut down .: [
+        [CryptoWall, abuse, Tor],
+        [CryptoWall, avoid, having C2 servers shut down],
+        [Tor, a legitimate service, None],
+        [C2 servers, being shut down, None],
+        [Tor, used to avoid, having its C2 servers shut down]
+    ]
+"
+The TINYTYPHON malware is a small backdoor capable of finding and uploading documents on locally mapped drives and receiving secondary malware.,"Command and Control, Exfiltration, Collection, ",TRUE,Exfiltration,"
+        [TINYTYPHON, find, documents],
+        [TINYTYPHON, upload, documents],
+        [TINYTYPHON, receive,  secondary malware]","[[\TINYTYPHON malware\, \is\, \a small backdoor capable of finding and uploading documents on locally mapped drives\],        [\TINYTYPHON malware\, \receives\, \secondary malware\],        [\TINYTYPHON malware\, \can\, \find and upload documents\],        [\TINYTYPHON malware\, \can\, \receive secondary malware\]    ]"
+The malware hides behind numerous layers of encryption and obfuscation and is capable of quietly stealing and exfiltrating sensitive information such as email from the victim?s computer.,"Exfiltration,Collection, Defense Evasion, ",TRUE,Exfiltration,"    [The malware, hides behind, encryption and obfuscation],
+        [The malware, stealing and exfiltrating, sensitive information],
+        [The malware, steals and exfiltrates, email],","    [Malware, hides behind numerous layers of encryption and obfuscation, victim\s computer],
+    [Malware, is capable of quietly stealing and exfiltrating, sensitive information],
+    [Malware, targets, email],
+    [Malware, exfiltrates, sensitive information]"
+"Once run , the Trojan requests administrator privileges , collects information about the device , including GPS coordinates and call history , and downloads the data to a malicious server .","Exfiltration, Discovery, Privilege Escalation",TRUE,Exfiltration,"      [Trojan, requests, administrator privileges],
+        [Trojan, collects, information about the device],
+        [Trojan, collects, GPS coordinates],
+        [Trojan, collects, call history],
+        [Trojan, downloads, data] "," [Trojan, requests, administrator privileges],  [Trojan, collects information, about the device],  [device, includes, GPS coordinates],  [device, includes, call history],  [Trojan, downloads the data, to a malicious server"
+"This threat group not only used the Phishery tool to create these malicious Word documents, but also to host the C2 server to harvest credentials.","Exfiltration, Credential Access,",TRUE,Exfiltration,"     [threat group, used, Phishery tool],
+        [Phishery tool, create, malicious Word documents],
+        [threat group, host, C2 server],
+","
+    This threat group ... harvest credentials.: [
+        [This threat group, use, Phishery tool],
+        [Phishery tool, create, malicious Word document],
+        [Phishery tool, host, C2 server],
+        [Hacking group, harvest, credentials],
+        [This threat group, used Phishery tool, create malicious Word document],
+        [This threat group, used Phishery tool, host C2 server],
+        [Hacking group, harvest, credentials],
+        [C2 server, harvest, credentials]
+    ]
+"
+"The downloader collects a large amount of system information and POSTs it to a known Zebrocy C2 , then pulls down known Zebrocy Delphi payload code , launches it , and deletes itself .","Exfiltration, Discovery, ",TRUE,Exfiltration,"       [The downloader, collects, system information],
+        [The downloader, POSTs, system information],
+        [The downloader, pulls down, known Zebrocy Delphi payload code],
+        [The downloader, launches, Zebrocy Delphi payload code],
+        [The downloader, deletes, downloader]","
+  The downloader ... deletes itself.: [
+    [downloader, collects, system information],
+    [downloader, sends, system information to Zebrocy C2],
+    [Zebrocy C2, receives, system information],
+    [Zebrocy C2, sends, payload code to downloader],
+    [downloader, receives, payload code],
+    [downloader, launches, payload code],
+    [downloader, deletes, itself]
+  ]
+"
+"The mobile side waits for confirmation texts sent by the bank , intercepts the codes and sends them back to the desktop to gain access to the victims bank account .","Exfiltration, Credential Access, ",TRUE,Exfiltration,"        [mobile side, wait for, confirmation texts],
+        [bank, sends, confirmation texts],
+        [mobile side, intercepts, codes],
+        [mobile side, sends, codes],
+","  [The mobile side, waits for, confirmation texts sent by the bank],
+  [The mobile side, intercepts the codes, sends them back to the desktop],
+  [The mobile side, gains access, to the victims bank account],
+  [The bank, sends, confirmation texts],
+  [The desktop, receives and processes, the intercepted codes],
+  [The victim, has, a bank account]"
+1 Scheduled task created by Clayslide to execute the ALMA Communicator payload ALMA Communicator Trojan The ALMA Communicator Trojan is a backdoor Trojan that uses DNS tunneling exclusively to receive commands from the adversary and to exfiltrate data .,"Exfiltration, Command and Control, ",TRUE,Exfiltration,"        [Clayslide, created, Scheduled task],
+        [Scheduled task, execute, ALMA Communicator payload],
+        [ALMA Communicator Trojan, uses, DNS tunneling],
+        [DNS tunneling, receive commands from, adversary],
+        [DNS tunneling, exfiltrate, data]","  [Scheduled task, created by, Clayslide],
+    [Scheduled task, to execute, ALMA Communicator payload],
+    [ALMA Communicator Trojan, is, malware],
+    [ALMA Communicator Trojan, is, a backdoor],
+    [ALMA Communicator Trojan, use, DNS tunneling],"
+Both apps upload users phone book to remote server and use it for SMS spam .,"Exfiltration, Collection, ",TRUE,Exfiltration,".[apps,upload, users phone book],[users phone book, is used for SMS spam]","[[ Both apps, upload, users phone book],    [Both apps, use, users phone book],    [Both apps, upload, remote server],    [Both apps, use, remote server],    [users phone book, is used for, SMS spam]  ]"
+This data is then RC4 encrypted and sent to the same C&C.,"Exfiltration, ",TRUE,Exfiltration,"[This data, is, RC4 encrypted, ], [data, sent to, the same C&C]","    [data, RC4 encrypted, C&C],
+        [data, sent, C&C]"
+"The output of the command is saved to a file whose name starts with proc and is stored in the sendbox folder , which the Trojan will send to the C2 server .","Exfiltration, Collection, ",TRUE,Exfiltration,"      [output, is saved to, file],
+        [file, starts with, proc],
+        [file, is stored in, sendbox],
+        [Trojan, will send, file],
+","
+  The output ... sent to the C2 server: [
+    [output, is saved, to a file],
+    [file, whose name starts with, proc],
+    [proc files, are stored, in the sendbox folder],
+    [trojan, will send, the proc file],
+    [C2 server, receives, the proc file]
+  ]
+"
+"Disttrack also has the ability to download and execute additional applications to the system, as well as remotely set the date to start wiping systems.","Impact, Execution, ",TRUE,Impact,"        [Disttrack, downloads, application], 
+        [Disttrack, executes, application],  
+        [Disttrack, can, set the date],
+        [date,to, wiping systems]",":[    [Disttrack, has the ability to, download and execute additional applications],    [Disttrack, remotely set the date, to start wiping systems],    [Disttrack, is able to, execute additional applications],    [Disttrack, is able to, set the date to start wiping systems],    [systems, receive, additional applications],    [systems, receive, the date to start wiping],    [systems, are wiped, by Disttrack]  ]"
+The next phase of the SectorOverwite attack is particularly aggressive as 300 threads are generated for the potential of physical drives 0 through 299 being attacked by having every byte of every sector of the drives replaced with random data.,"Impact, ",TRUE,Impact,"
+        [SectorOverwite attack, generates, 300 threads],
+        [threads, attack, attacking physical drive],
+        [every byte of every sector of the drives ,replaced with,random data]","[[ SectorOverwite attack, is, particularly aggressive],    [attack, generates, 300 threads],    [threads, are, for potential of physical drives 0 through 299],    [drives, are, attacked by having every byte of every sector, replaced with random data]  ]"
+"The use of filename_9563 to change a user?s password, especially that of the Administrator account, is explicitly unusual and should be monitored for.","Impact, ",TRUE,Impact,"   [filename_9563, changes, users password],","[[ filename_9563, change, user\s password],    [filename_9563, change, Administrator account\s password],    [filename_9563, use, is explicitly unusual]  ]"
+Then every file in that drive that matches a desired extension is copied and encrypted to the Winde folder on the local drive.,"Impact, ",TRUE,Impact," [file, is copied and encrypted to, Winde folder],","
+  [
+    [drive, contains files, matching a desired extension],
+    [files, are copied and encrypted, to the Winde folder]
+  ],
+
+"
+It also wipes all free space by creating the following file c:\wipe and filling it with random data the size of the free space available on the drive.,"Impact, ",TRUE,Impact,"    [It, wipes, all free space],
+    [It, creates, file c:\\wipe],
+    [file c:\\wipe, filled  with, random data],
+",":[    [Malware, wipes free space],    [Malware, creates, file c:\wipe],    [Malware, fills, file c:\wipe with random data]]"
+"That is , it can send a random usernames and passwords to website forms , causing a tremendous load on the server Other features are the same as you see above in Version 3 .","Impact,",TRUE,Impact,"    [it, send, random usernames and passwords],
+      [it, cause, tremendous load on the server]","[[ It, can send, a random usernames and passwords to website forms], [It, causing, a tremendous load on the server]]"
+"In these types of attacks , the attacker is looking to move from network share to another network share in order to spread itself and do ransomware type attacks against the data it finds .","Impact, Lateral Movement, ",TRUE,Impact,"      [the attacker, is looking to move from, network shares],
+       [the attacker, spread, ransomware attacks],","
+{
+    In these types of attacks, the attacker is looking to move from network share to another network share in order to spread itself and do ransomware type attacks against the data it finds: [
+        [attacker, looking to move, network share],
+        [attacker, move, another network share],
+        [attacker, spread, itself],
+        [attacker, do, ransomware type attacks],
+        [attacker, do, data it finds],
+        [attacker, perform, ransomware type attacks against, data],
+        [attacker, find, data on the network]
+    ]
+}<|im_end|>"
+"While there are certain factors and / or triggers for this vulnerability , it can provide attackers administration access and enable them to remotely reset or power off the vulnerable system if exploited successfully .","Impact,",TRUE,Impact,"  [vulnerability, provides,  attackers administration access],
+  [vulnerability, enables, remote reset or power off],
+    ",":[    [vulnerability, provide, attackers administration access],    [factors, triggers, vulnerability],    [attackers, adminstration, access],    [attackers, remotely, reset],    [attackers, power, off],    [system, vulnerable, system]]"
+"It uses virtualization software _ QEMU on macOS and VirtualBox on Windows _ to mine cryptocurrency on a Tiny Core Linux virtual machine, making it cross platform.","Impact, ",TRUE,Impact,"        [It, uses, virtualization software],
+        [It, mine, cryptocurrency]","[[ It, uses virtualization software, _ QEMU],[It, runs on, macOS],[It, runs on, VirtualBox],[It, mines cryptocurrency on, a Tiny Core Linux virtual machine],[It, is, cross platform]]"
+"When selecting which files to encrypt, the malware skips over files with .exe, .dll, and .wncry extensions.","Impact, ",TRUE,Impact,"[the malware, skips over, .exe extensions],
+[the malware, skips over, .dll extensions],
+[the malware, skips over, .wncry extensions]",":[    [malware, skips over, files with .exe extension],    [malware, skips over, files with .dll extension],    [malware, skips over, files with .wncry extension]]"
+"We do not have targeting details for this sample, although the decoy document contained a similar theme to the newest Clayslide document, displaying vendor related information (Figure 4).","Initial Access, ",TRUE,Initial Access,"[decoy document,contained, a similar theme to the newest Clayslide document],[decoy document,displays, vendor related information]","[[ We, do not have targeting details for, this sample],    [document, contain, a similar theme to the newest Clayslide document],    [document, display, vendor related information],    [vendor related information, shown in, Figure 4]  ]"
+This spyware arrives on a system as a file dropped by other malware or as a file downloaded unknowingly by users when visiting malicious sites.,"Initial Access, ",TRUE,Initial Access,"  
+        [spyware, dropped by, malware],
+        [spyware, downloaded unknowingly by, user],","[[ spyware, arrives on a system as, a file dropped by other malware],     [spyware, arrives on a system as, a file downloaded unknowingly by users],     [users, download, a file from malicious sites]  ]"
+"The payload delivered in these November 2017 attacks using DDE enabled documents was SofacyCarberp , which differs from the Zebrocy downloader delivered in the February 2018 attacks .","Execution,Initial Access, ",TRUE,Initial Access,"  [SofacyCarberp, delivered in, November 2017 attacks],
+        [SofacyCarberp, using, DDE enabled documents],
+        [Zebrocy downloader, delivered in, February 2018 attacks]","[[ payload, delivered in, November 2017 attacks],    [payload, delivered in, using DDE enabled documents],    [SofacyCarberp, differs from, Zebrocy downloader],    [Zebrocy downloader, delivered in, February 2018 attacks]  ]"
+The exploit was delivered through a Microsoft Office document and the final payload was the latest version of FinSpy malware.,"Initial Access, ",TRUE,Initial Access,"  [exploit, is delivered through, Microsoft Office document],
+  [payload, is, FinSpy]"," [The exploit, was delivered through, a Microsoft Office document],
+        [The final payload, was, the latest version of FinSpy malware]"
+"Based on that research and this observation, we postulate that the OilRig group gathered credentials to a legitimate user?s OWA account and logged into the user?s account to send phishing attacks to other individuals within the same, targeted organization.","Initial Access, ",TRUE,Initial Access,"    [the OilRig group, gathered credentials to, legitimate users OWA account],
+    [the OilRig group, logged into, the users account],
+    [the OilRig group, sends, phishing attacks],","[OilRig group, gathered credentials to, legitimate users OWA account],
+    [OilRig group, logged into, users account],
+    [OilRig group, sent, phishing attacks],
+    [OilRig group, targeted, same organization],
+    [Malware, save, text file]"
+" Since the original publication of this approach, Proofpoint researchers have observed a number of actors -- ?early adopters? -- abusing this file format by embedding it inside Microsoft Word and PDF documents. ","Initial Access,  ",TRUE,Initial Access," 
+        [early adopters, abusing, this file format],
+        [early adopters, embedding inside, Microsoft Word documents],
+        [early adopters, embedding inside,  PDF documents] "," [[ Proofpoint researchers, observed, a number of actors],    [actors, are, early adopters],    [actors, abused, this file format],    [format, embedded, inside Microsoft Word and PDF documents]  ] "
+The fourth attack wave that Volexity observed leveraged a Microsoft Word document with a malicious embedded macro.,"Initial Access, ",TRUE,Initial Access,"
+        [fourth attack wave, leveraged, Microsoft Word document],
+        [Microsoft Word document, contains, macro]","[[ Volexity, observed, Microsoft Word document with a malicious embedded macro]  ]"
+"These are decoy documents, often used by cyberespionage groups as a distraction while they execute their malware behind the scenes using lures such as ?CPR? and ?disaster prevention.?","Initial Access, ",TRUE,Initial Access,"  [decoy documents, often used by, cyberespionage groups],
+        [lure, include, CPR],
+        [lure, include, disaster prevention]",":[    [cyberespionage groups, use, decoy documents],    [groups, execute, malware],    [groups, use lures, such as CPR],    [groups, use lures, such as disaster prevention],    [groups, perform, cyberespionage]]"
+"Even the images contained in the messages are loaded from the official servers telekom.de and dhl.com, respectively.","Initial Access, ",TRUE,Initial Access,"[images, are loaded from, official servers],
+        [official servers, is, telekom.de],
+        [official servers, is, dhl.com],
+        [messages, contain, images]","       [images, contained in, messages],
+        [images, are loaded from, official servers],
+        [telekom.de, and, dhl.com, respectively]"
+"A series of domain names associated with online multi-player games were directed to this Hetzner IP, one of which was apparently hosting a malicious HTML document.","Initial Access, ",TRUE,Initial Access,"        [domain name, is associated with, online multi-player game],
+        [domain name, is directed to, Hetzner IP],
+        [Hetzner IP, is hosting, malicious HTML document]","[[ domain names, associated with, online multi-player games],    [domain names, directed to, Hetzner IP],    [Hetzner IP, apparently hosting, malicious HTML document]  ]"
+"The persistence mechanism downloaded code on a scheduled basis , enabling the adversary to pass commands to the targeted system through PowerShell Reflective Injection .","Persistence, Command and Control, ",TRUE,Persistence,"        [persistence mechanism, downloaded code on, scheduled basis],
+        [adversary, pass commands to, targeted system]","[[ The persistence mechanism, downloaded code, on a scheduled basis],    [The persistence mechanism, passed commands, to the targeted system],    [The persistence mechanism, used, PowerShell Reflective Injection]  ]"
+Tropic Trooper has created the Registry key HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell and sets the value to establish persistence.,"Persistence, ",TRUE,Persistence,"        [Tropic Trooper, creates, Registry key],[Registry key,is,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell]
+        [Tropic Trooper, set, value]","[[ Tropic Trooper, create, the Registry key HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell],[Tropic Trooper, set the value, to establish persistence]]"
+"After creating this scheduled task for persistence , the Trojan will begin communicating with its C2 server .","Persistence, Command and Control, ",TRUE,Persistence,"    [Trojan, communicates with, C2 server],
+    [Trojan, creates, scheduled task]","
+    After creating this scheduled task for persistence, the Trojan will begin communicating with its C2 server.: [
+        [scheduled task, for persistence, Trojan],
+        [Trojan, begin communicating, C2 server]
+    ]
+"
+The WMI component of the POSHSPY backdoor leverages a Filter to execute the PowerShell component of the backdoor on a regular basis.,"Persistence, Execution, ",TRUE,Persistence,"     [POSHSPY, has, WMI component],
+        [WMI component, uses, Filter],
+        [WMI, executes, PowerShell component],
+  ","[[ WMI, component of, the POSHSPY backdoor],    [WMI, leverages, a Filter],    [WMI, execute, the PowerShell component of the backdoor],    [WMI, on, a regular basis]  ]"
+Gazer can establish persistence by creating a .lnk file in the Start menu or by modifying existing .lnk files to execute the malware through cmd.exe.,"Persistence,  Execution, ",TRUE,Persistence,"  [Gazer, create, a .lnk file in the Start menu],
+        [Gazer, modify, existing .lnk files],
+        [Gazer, execute malware through, cmd.exe]","[[ Gazer, can establish persistence, by creating a .lnk file in the Start menu],  [Gazer, can establish persistence, by modifying existing .lnk files],  [Gazer, execute the malware, through cmd.exe]]"
+"When the attached program was executed , it did not start a free system scan as claimed , but instead it simply moved itself into other folders in the system and have set up itself to be automatically started on windows startup ."," Persistence, ",TRUE,Persistence,"  [attached program, moved into, other folders],
+        [attached program, automatically started on, windows startup]","[[ attached program, was executed, did not start a free system scan],   [attached program, moved itself, into other folders],   [attached program, set up, to be automatically started on windows startup]]"
+"The hives are backed up with a scheduled task called RegIdleBackup , which is scheduled to run every 10 days by default .","Persistence, ",TRUE,Persistence,"[RegIdleBackup,back up, hive],[RegIdleBackup, is scheduled to run in, every 10 days]","[[ RegIdleBackup, is, a scheduled task],      [RegIdleBackup, backs up, hives every 10 days]    ]  "
+TrickBot creates a scheduled task on the system that provides persistence.,"Persistence, ",TRUE,Persistence,"[TrickBot, creates, scheduled task], [scheduled task, provides, persistence]","[
+  TrickBot creates a scheduled task on the system that provides persistence.: [
+    [TrickBot, creates, a scheduled task],
+    [system, provides, persistence]
+  ]
+\]
+"
+"The decrypted resource is set to be run as a scheduled task every 30 minutes, indefinitely.","Persistence, Execution, ",TRUE,Persistence,"[decrypted resource,is set to be,run]","[[ decrypted resource, set to be run as, a scheduled task],                                            [scheduled task, run, every 30 minutes],                                            [task, run, indefinitely]]"
+"Once the attackers obtain the necessary credentials without the victim noticing, they deploy the rootkit and other extreme persistence mechanisms.","Credential Access, Persistence, ",TRUE,Persistence,"        [attackers, obtain, necessary credentials],
+        [attackers, deploy, rootkit],
+        [attackers, deploy, persistence mechanisms]","[[ attackers, obtain, necessary credentials],    [attackers, deploy, rootkit],    [attackers, deploy, other extreme persistence mechanisms]  ]"
+"Variants of Conficker attempt to spread over network shares , guessing the password based on some commonlyused methods and words .","Lateral Movement, Credential Access, ",TRUE,Lateral Movement,"        [Conficker, attempts to spread, over network shares],
+        [Conficker, guesses, passwords]","[[ Conficker, attempt to spread over, network shares], [Conficker, guess the password based on, some commonly used methods and words]]"
+"When a Dark Caracal operator instructs an infected device to upload sensitive data, it is stored on the attacker infrastructure under this campaign.","Exfiltration, Lateral Movement, ",TRUE,Lateral Movement,"        [Dark Caracal operator, instructs, an infected device],
+        [infected device, upload, sensitive data],
+        [sensitive data, is stored on, attacker infrastructure]","[[ Dark Caracal operator, instructs an infected device to upload, sensitive data],    [infected device, uploads, sensitive data],    [attacker infrastructure, stores, sensitive data]  ]"
+Infecting USB drives with a spy module in order to steal information from other computers .,"Collection, Lateral Movement, ",TRUE,Lateral Movement,"        [USB drives, infected with, spy module],
+        [spy module, used to, steal information],"," [spy module, infect, USB drives],
+    [spy module, steal information, from other computers],
+    [USB drives, infect, with spy module],
+    [other computers, steal information, from]"
+FireEye also previously reported on FIN7?s use of the CARBANAK backdoor as a post-exploitation tool to cement their foothold in a network and maintain access to victim environments.,"Lateral Movement, ",TRUE,Lateral Movement,"
+        [FIN7, use, CARBANAK],
+        [CARBANAK, used to, cement foothold in a network],
+        [CARBANAK, used to, maintain access to victim environments]","[[ FireEye, report, FIN7s use of the CARBANAK backdoor],    [FIN7, use, the CARBANAK backdoor],    [CARBANAK backdoor, a post-exploitation tool, to cement their foothold in a network],    [CARBANAK backdoor, maintain access, to victim environments]  ]"
+Ursnif has copied itself to and infected removable drives for propagation.,"Lateral Movement, ",TRUE,Lateral Movement,"        [Ursnif, copied, Ursnif],
+        [Ursnif, infected, removable drive]","[[ Ursnif, has copied itself to, removable drives],    [Ursnif, infected, removable drives],    [Ursnif, used, removable drives],    [Ursnif, for, propagation]  ]"
+"On a CC command , the malicious program scans for nearby devices with enabled Bluetooth connection , and attempts to send the downloaded file to them .","Lateral Movement, Discovery",TRUE,Lateral Movement,"    [malware, scans for, Bluetooth devices], 
+    [malware, attempts to send, downloaded file ]","
+    On a CC command ... upload the file to them: [
+        [malicious program, scans for, nearby devices with enabled Bluetooth connection],
+        [malicious program, attempts to send, downloaded file to them]
+    ],
+    The malicious program scans ... of enabled Bluetooth connection , and attempts to send the downloaded file to them: [
+        [The malicious program, scans for, nearby devices],
+        [nearby devices, have, enabled Bluetooth connection],
+        [The malicious program, attempts to send, the downloaded file]
+    ],
+    On a CC command.. sent to them: [
+        [malicious program, scans for nearby devices, with enabled Bluetooth connection]
+    ]
+"
+"Once inside , STRONTIUM moves laterally throughout the victim network , entrenches itself as deeply as possible to guarantee persistent access , and steals sensitive information .","Collection, Lateral Movement, Persistence, ",TRUE,Lateral Movement,"    [STRONTIUM, moves laterally throughout, the victim network],
+        [STRONTIUM, entrenches, itself],
+        [STRONTIUM, steals, sensitive information]","        [STRONTIUM, moves laterally throughout, the victim network],
+        [STRONTIUM, entrenches itself as deeply as possible, to guarantee persistent access],
+        [STRONTIUM, steals, sensitive information]"
+"Example: Infecting other machines with Denis backdoor Using WMI and the stolen credentials, the attackers copied the backdoor DLL (msfte.dll) to the target machine:","Lateral Movement, ",TRUE,Lateral Movement,"        [attackers, infect machines with , Denis backdoor],
+        [attackers, use, WMI],
+        [attackers, use, stolen credentials],
+        [attackers, copy, backdoor DLL],
+        [backdoor DLL, is, msfte.dll]","[[ Denis backdoor, using, WMI],    [Denis backdoor, using, the stolen credentials],    [Denis backdoor, copy, msfte.dll],    [the attackers, copy, msfte.dll],    [the attackers, copy, to the target machine]  ]"
+Disttrack is optimized to destroy systems by targeting their hard drives and to spread as widely as possible throughout a network its infiltrated .,"Impact, Lateral Movement, ",TRUE,Lateral Movement,"        [Disttrack, destroys, systems],
+        [Disttrack, targeting, system hard drives],
+        [Disttrack, spreads throughout, network],","   [Disttrack, is optimized to destroy, systems],
+    [Disttrack, targets, hard drives],
+    [Disttrack, spreads, widely as possible],
+    [network, its infiltrated, by Disttrack]"
+We believe the actors pivoted to other systems on the network using stolen credentials and by exploiting the CVE-2017-0144 (EternalBlue) vulnerability patched in MS17-010.,"Lateral Movement, ",TRUE,Lateral Movement,"        [actors, pivoted to, other systems on the network],
+        [actors, used, stolen credentials],
+        [actors, exploiting, CVE-2017-0144 (EternalBlue)],
+","[[ actors, pivoted to, other systems on the network],    [actors, used, stolen credentials],    [actors, exploited, CVE-2017-0144 (EternalBlue) vulnerability],    [actors, exploited, CVE-2017-0144 (EternalBlue) vulnerability patched in MS17-010]  ]"
+"A malicious DHCP server , or an attacker on the local network able to spoof DHCP responses , could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager , which is configured to obtain network configuration using the DHCP protocol .","Privilege Escalation, ",TRUE,Privilege Escalation,"
+        [attacker, able to spoof, DHCP responses],
+        [attacker, execute, arbitrary commands],
+        [commands, with, root privileges],
+        [NetworkManager, configured to obtain, network configuration],
+        [NetworkManager, using, DHCP protocol]","  [A malicious DHCP server, could use this flaw to execute arbitrary commands with root privileges, systems using NetworkManager],
+    [an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges, systems using NetworkManager],
+    [NetworkManager, is configured to obtain network configuration, using the DHCP protocol]"
+An authenticated attacker who successfully exploited this vulnerability could bypass existing permission checks that are performed during cache modification in the Microsoft Windows Application Compatibility component and execute arbitrary code with elevated privileges .,"Privilege Escalation, Execution, ",TRUE,Privilege Escalation,"        [authenticated attacker, bypass, permission checks],
+        [permission checks, are performed during, cache modification],
+        [cache modification, in, Microsoft Windows Application Compatibility component],
+        [authenticated attacker, execute, arbitrary code],","
+    An authenticated attacker who successfully exploited this vulnerability could bypass existing permission checks that are performed during cache modification in the Microsoft Windows Application Compatibility component and execute arbitrary code with elevated privileges .: [
+        [authenticated attacker, exploited, vulnerability],
+        [attacker, bypass, permission checks],
+        [attacker, execute, arbitrary code],
+        [Microsoft Windows, Application Compatibility component, cache modification],
+        [component, perform, permission checks],
+        [component, allow, arbitrary code execution],
+        [arbitrary code, execute, with elevated privileges]
+    ]
+"
+"Once run , the Trojan requests administrator privileges , collects information about the device , including GPS coordinates and call history , and downloads the data to a malicious server .","Exfiltration, Discovery, Privilege Escalation",TRUE,Privilege Escalation,"        [Trojan, requests, administrator privileges],
+        [Trojan, collects, device information],
+        [Trojan, collects, GPS coordinates],
+        [Trojan, collects, call history],
+        [Trojan, downloads, data],
+        [data, is downloaded to, malicious server]","[[ Trojan, requests, administrator privileges, device],                                           [Trojan, collects information, device],                                           [Trojan, collects GPS coordinates, device],                                           [Trojan, collects call history, device],                                           [Trojan, downloads data, malicious server]  ]"
+"This means that remote attackers can use these capabilities to gain access to the administrative panel of the Gemalto software , carry out attacks with system user privileges and conceal their presence after completing these attacks .","Defense Evasion,Privilege Escalation,  ",TRUE,Privilege Escalation,"  [remote attackers, gain access to, administrative panel of the Gemalto software],
+        [remote attackers, carry out attacks with, system user privileges],
+        [remote attackers, conceal,  their presence]","[[ remote attackers, use, these capabilities], [attackers, gain access to, the administrative panel of the Gemalto software], [attackers, carry out attacks with, system user privileges], [attackers, conceal, their presence after completing these attacks]]"
+"Nevertheless , EoPs are well worth patching because if they are combined with an RCE , they may allow an attacker to convert a modestly dangerous driveby install with user privileges into a fullyfledged administratorlevel system takeover .","Privilege Escalation, Execution, ",TRUE,Privilege Escalation,"
+        [EoPs, are combined with, an RCE],[attacker,convert,driveby install]
+","[[ EoPs, are well worth, patching],    [EoPs, combined with, RCE],    [EoPs, allow, attacker],    [attacker, convert, driveby install],    [attacker, convert, with user privileges],    [attacker, convert, into, fullyfledged administrator level system takeover]  ]"
+"The Mimikatz module is used to harvest credentials and escalate privileges , giving the attackers greater control of the machine and access across the network .","Credential Access,Privilege Escalation,  Command and Control, ",TRUE,Privilege Escalation,"        [Mimikatz,harvest, credentials],
+        [Mimikatz, escalate, privileges],
+        [attackers, gain control of, machine],
+        [attackers, access, network]","   [Mimikatz module, use, to harvest credentials],
+    [Mimikatz module, escalate privileges],
+    [Mimikatz module, give the attackers, greater control of the machine],
+    [attackers, gain, access across the network]"
+These copied opcodes will later be used by privileged kernel code to elevate permissions and bypass the sandbox .,"Privilege Escalation, ",TRUE,Privilege Escalation,"[copied opcodes,used by,privileged kernel code],
+[privileged kernel code,elevates,permissions],
+[privileged kernel code,bypasses,the sandbox]"," [opcode, will later be used by, privileged kernel],
+    [privileged kernel, elevate permission, bypass sandbox]"
+"In addition to downloading modules belonging to the banking Trojan , Tordow ( within the prescribed load chain of modules ) also downloads a popular exploit pack to gain root privileges , which provides the malware with a new attack vector and unique features .","Privilege Escalation, ",TRUE,Privilege Escalation,"     [Tordow, downloads, modules],
+        [Tordow, downloads, exploit pack],","[[ Tordow, downloads, modules belonging to the banking Trojan],        [Tordow, downloads, a popular exploit pack],        [Tordow, gains, root privileges],        [Tordow, provides, the malware, with a new attack vector],        [Tordow, provides, unique features]    ]"
+"The malware sample starts a copy of itself , which further injects its code intosvchost.exeorIEXPLORE.EXEdependingon the user privilege level .","Privilege Escalation, Execution, ",TRUE,Privilege Escalation,"        [Malware, starts, copy of itself],
+           [malware, inject, svchost.exe],
+        [Malware, inject, IEXPLORE.EXE],"," [malware, start, itself],
+    [malware, inject, svchost.exe],
+    [malware, inject, IEXPLORE.EXE],
+    [users, have, privilege level]"
+"Once installed , the malware will ask to activate itself as a device administrator .","Privilege Escalation, ",TRUE,Privilege Escalation,"[the malware,ask to activate, itself]","        [malware, will ask to activate, itself as a device administrator]
+"
+"txt provides instructions teaching the user how to turn off the antivirus software and how to turn on the network , which the attacker needs to steal and upload data to its CC server .","Exfiltration, Collection, Defense Evasion, ",TRUE,Defense Evasion,"[txt, provides instructions teaching, the user],[txt, provides, instruction,]
+    [user, turn off, antivirus software],
+    [user, turn on, network],","   [SUBJECT:txt, RELATION:provides instructions teaching the user, OBJECT:how to turn off the antivirus software],
+    [SUBJECT:user, RELATION:turn off, OBJECT:antivirus software],
+    [SUBJECT:user, RELATION:turn on, OBJECT:network],
+    [SUBJECT:attacker, RELATION:needs, OBJECT:to steal data],
+    [SUBJECT:attacker, RELATION:upload, OBJECT:data to its CC server]"
+"Finally, the fake Flash installer downloads a legitimate Adobe installer, from a Google Drive URL, and executes it to lull the user into thinking all went correctly.","Defense Evasion, ",TRUE,Defense Evasion,"
+[fake Flash installer, downloads, a legitimate Adobe installer],
+        [fake Flash installer, downloads, from a Google Drive URL],
+        [fake Flash installer, executes, a legitimate Adobe installer],
+
+","[        [fake Flash installer, downloads, a legitimate Adobe installer],        [fake Flash installer, downloads, from a Google Drive URL],        [fake Flash installer, executes, it to lull the user],        [user, thinks, all went correctly]    ]"
+"SeaDuke can securely delete files, including deleting itself from the victim.","Defense Evasion, ",TRUE,Defense Evasion,"
+[SeaDuke, delete,files]
+","[[SeaDuke, can securely delete files, incluing deleting itself from the victim]]"
+"If no arguments are provided and the malware determines it is running in a Windows environment, it saves a DLL to the system that it injects into the filename_21322 process.","Defense Evasion, ",TRUE,Defense Evasion,"[Malware, save, a DLL],
+[Malware, inject, the DLL]
+   ","[        [Malware, determine, it is running in a Windows environment],        [Malware, save, a DLL to the system],        [Malware, inject, the DLL into the filename_21322 process]    ]"
+The malware employs multiple levels of obfuscation and is capable of privilege escalation.,"Defense Evasion, ",TRUE,Defense Evasion,"
+
+    [malware, employs, multiple levels of obfuscation],
+    [malware, is capable of, privilege escalation]
+ 
+","[    [malware, employs, multiple levels of obfuscation],    [malware, is capable of, privilege escalation]  ]"
+"This link returns a .JS file, which is heavily obfuscated and laced with large amounts of junk data.","Defense Evasion, ",TRUE,Defense Evasion,"
+
+        [This link, returns, a .JS file],
+        [.JS file, is, heavily obfuscated],
+        [.JS file, contains, large amounts of junk data]
+
+","[        [This link, returns, a .JS file],        [.JS file, is, heavily obfuscated],        [.JS file, contains, large amounts of junk data]    ]"
+The malware will then sleep for 15 minutes between loops.,"Defense Evasion, ",TRUE,Defense Evasion,"[malware, will sleep, for 15 minutes]","[[malware, will sleep, for 15 minutes]]"
+"Its easy to see that the code uses Windows Script Host functionality to download external files , execute them , and then delete .","Command and Control, Execution, Defense Evasion,",TRUE,Defense Evasion,"
+  Its easy ... to execute them , and then 
+    [code, uses, Windows Script Host functionality],
+    [code, download,external files],
+    [code, execute,external files],
+    [code, delete,external files]
+  ]
+","[    [code, uses, Windows Script Host functionality],    [code, download external files],    [code, execute them],    [code, delete]  ]"
+"This is done on purpose: a user opening the archive in a standard Windows panel might not see the extension .exe, as the end of the file name might not be displayed.","Defense Evasion, ",TRUE,Defense Evasion,"[user,not to see, the extension],[end of the file name, might not be, displayed]
+
+"," [This is done on purpose, a user opening the archive in a standard Windows panel might not see the extension .exe],
+        [user opening the archive in a standard Windows panel, might not see the extension .exe],
+        [Windows panel, might not see, the extension .exe],
+        [the end of the file name, might not be displayed]"
+The Trojan will delete the email after reading and processing these emails.,"Defense Evasion, ",TRUE,Defense Evasion,"
+
+    [Trojan, delete, email]
+  
+","[    [Trojan, delete, email]  ]"
+The malware hides behind numerous layers of encryption and obfuscation and is capable of quietly stealing and exfiltrating sensitive information such as email from the victim?s computer.,"Exfiltration,Collection, Defense Evasion, ",TRUE,Defense Evasion,"
+
+    [malware, hides behind,encryption and obfuscation],
+    [malware, steals and exfiltrates, sensitive information such as email],
+
+","[[ Malware, hides behind numerous layers of encryption and obfuscation, is capable of quietly stealing and exfiltrating],    [Malware, steal, sensitive information]  ]"
+APT29 has used encoded PowerShell scripts uploaded to CozyCar installations to download and install SeaDuke. APT29 also used PowerShell scripts to evade defenses.,"Execution, Defense Evasion, ",TRUE,Defense Evasion,"
+
+        [APT29, has used, encoded PowerShell scripts],
+        [CozyCar, download and install,  SeaDuke],
+        [APT29,used, PowerShell scripts]
+","[        [APT29, has used, encoded PowerShell scripts],        [APT29, has used, PowerShell scripts],        [CozyCar, installations, download and install SeaDuke],        [APT29, has used, PowerShell scripts to evade defenses]]"
+"This DNS query likely exists as a note to researchers or possibly as an anti-analysis measure, as it will only trigger if the researcher has already patched the initial debugger check to move onto the C2 function.","Command and Control, Defense Evasion, ",TRUE,Defense Evasion,"
+
+    [DNS query, likely exists, as a note to researchers],
+    [DNS query, possibly serve as, an anti-analysis measure],
+    [the initial debugger check, trigger, DNS query]
+
+","[    [This DNS query, likely exists, as a note to researchers],    [This DNS query, possibly serve as, an anti-analysis measure],    [researchers, patch, the initial debugger check],    [the initial debugger check, trigger, the C2 function]  ]"
+"Specifically the sample uses Return Oriented Programming to control execution flow, and creates an extraordinary amount of functions filled with instructions that essentially evaluate to elaborate NOPs (no operation).","Defense Evasion, ",TRUE,Defense Evasion," [sample, uses, Return Oriented Programming],
+    [sample, controls, execution flow],
+    [sample, creates, an extraordinary amount of functions],
+    [functions, are filled with, instructions],
+    [instructions, evaluate to, elaborate NOPs]
+
+","[    [Specifically the sample, uses, Return Oriented Programming],    [Specifically the sample, controls, execution flow],    [Specifically the sample, creates, an extraordinary amount of functions],    [functions, are filled with, instructions],    [instructions, evaluate to, elaborate NOPs]  ]"
+"This DLL serves three main functions: killing antimalware, unpacking and executing the main RAT DLL, and obtaining persistence.","Persistence, Defense Evasion, Execution, ",TRUE,Defense Evasion,"
+
+       
+        [This DLL, kill, antimalware],
+        [This DLL, unpack and execute, the main RAT DLL],
+        [This DLL, obtain, persistence],
+   
+","[SUBJECT:This DLL, RELATION:serves, OBJECT:three main functions],
+    [SUBJECT:functions, RELATION:kill, OBJECT:antimalware],
+    [SUBJECT:functions, RELATION:unpack, OBJECT:the main RAT DLL],
+    [SUBJECT:functions, RELATION:execute, OBJECT:the main RAT DLL],
+    [SUBJECT:functions, RELATION:obtain, OBJECT:persistence]"
+User credentials can be collected by plugin 0x07 via capturing keystrokes .,"Collection, Credential Access, ",TRUE,Credential Access,"
+ [Usercredentials, can be collected by, plugin 0x07],
+    [plugin 0x07, captures, keystrokes]
+  
+","[    [Usercredentials, can be collected by, plugin 0x07],    [plugin 0x07, captures, keystrokes]  ]"
+Mine uses credentials acquired with the credential harvester Mimikatz to attempt to propagate and move laterally with legitimate credentials .,"Lateral Movement, Credential Access, ",TRUE,Credential Access,"
+[Mine,uses,credentials],[Mimikatz,acquired,credentials],[Mine,attempt to, propagate and move]
+
+"," [Mine, uses, credentials acquired with the credential harvester Mimikatz],
+    [Mimikatz, harvests, credentials],
+    [Mine, attempts to propagate, and move laterally with legitimate credentials]"
+"Once this is completed , the credentials harvested in the first step , as well as the compressed captured video , are sent to the malware author through FTP or mailed to a Gmail address .","Exfiltration, Collection, Credential Access, ",TRUE,Credential Access,"
+[credentials, sent, to the malware author],
+    [compressed captured video, sent, to the malware author]
+  
+","[    [credentials, harvested, in the first step],    [compressed captured video, sent, to the malware author through FTP or mailed to a Gmail address]  ]"
+The Trojan will then obtain an OAUTH access token to the Google Drive in the same manner as before when obtaining the unique identifier.,"Credential Access, ",TRUE,Credential Access,"
+
+        [Trojan, obtain, OAUTH access token to Google Drive],
+        [Trojan, obtain, unique identifier]
+
+","[        [Trojan, obtain, OAUTH access token],        [Trojan, obtain, Google Drive],        [Trojan, obtain, unique identifier]    ]"
+This family of mobile banking Trojans uses phishing windows to steal credit card data and logins and passwords from online banking accounts .,"Collection, Credential Access, ",TRUE,Credential Access,"
+[Mobile banking Trojan, steals, credit card data and logins and passwords],[Mobile banking Trojan, uses, phishing windows]
+ ","
+[
+    [mobile banking trojans, uses, phishing windows],
+    [phishing windows, steal, credit card data],
+    [phishing windows, steal, logins and passwords],
+    [online banking accounts, used, for stealing credit card data and logins and passwords]
+  ]
+"
+"This password allowed Phineas Fisher to escalate his access by hacking the companys Domain Admin server , from where he extracted the passwords for all the companys users .","Privilege Escalation, Credential Access, ",TRUE,Credential Access,"[Phineas Fisher, used, the password],[Phineas Fisher, escalate ,access],[Phineas Fisher, hacked, the companys Domain Admin server],[Phineas Fisher, extracted, passwords]","[[ Phineas Fisher, password, allowed], [Phineas Fisher, escalate his access, hacking the companys Domain Admin server], [Phineas Fisher, extracted the passwords, companys users]]"
+"The twist here is that instead of resetting your trial period , it steals information saved on the computer , be it browsersaved passwords , or passwords saved by an application .","Credential Access, ",TRUE,Credential Access,"[it,steals, information],[information, be, password]
+","  [twist, resets, trial period],
+        [twist, steals, information],
+        [information, saved, computer],
+        [information, includes, browsersaved passwords],
+        [information, includes, passwords saved by an application]"
+"In addition to collecting credentials, FIN6 used publicly available tools to map the internal network and conduct reconnaissance against Active Directory, Structured Query Language (SQL) servers and NetBIOS.","Credential Access, Discovery, ",TRUE,Credential Access,"
+
+    [FIN6, use, publicly available tools],
+    [FIN6, map, internal network],
+    [FIN6, conduct, reconnaissance],
+
+
+","[    [FIN6, use, publicly available tools],    [FIN6, collect, credentials],    [FIN6, map, internal network],    [FIN6, conduct, reconnaissance],    [Active Directory, Structured Query Language (SQL) servers and NetBIOS, target of, FIN6]  ]"
+"Remexi boasts features that allow it to gather keystrokes, take screenshots of windows of interest (as defined in its configuration), steal credentials, logons and the browser history, and execute remote commands.","Collection,Command and Control,  Credential Access, ",TRUE,Credential Access,"
+
+    [Remexi, gather, keystrokes],
+    [Remexi,take screenshots of, windows of interest],
+    [Remexi,steal, credentials],
+    [Remexi, steal,logons and the browser history],
+    [Remexi,execute, remote commands]
+  ]
+","[SUBJECT:Remexi, RELATION:boast features that allow, OBJECT:gather keystrokes],
+    [SUBJECT:Remexi, RELATION:boast features that allow, OBJECT:take screenshots of windows of interest],
+    [SUBJECT:Remexi, RELATION:boast features that allow, OBJECT:steal credentials],
+    [SUBJECT:Remexi, RELATION:boast features that allow, OBJECT:logons],
+    [SUBJECT:Remexi, RELATION:boast features that allow, OBJECT:the browser history],
+    [SUBJECT:Remexi, RELATION:boast features that allow, OBJECT:execute remote commands]"
+The C2 server was able to obtain the ?fakename? and ?fakepass? credentials entered into the authentication dialog box displayed when opening DarkHydrus? Word document.,"Exfiltration, Credential Access,",TRUE,Credential Access,"[C2 server, obtain, fakename],[C2 server, obtain, fakepass],[fakename, is entered into, authentication dialog box],[fakepass, is entered into, authentication dialog box],","[[C2 server, obtain, fakename],[C2 server, obtain, fakepass],[C2 server, interact with, authentication dialog box],[fakename, is entered into, authentication dialog box],[fakepass, is entered into, authentication dialog box],[DarkHydrus, create, Word document]]"
+"Once the threat actor mapped the network and obtained credentials (through net use), they began to move laterally.","Lateral Movement, Credential Access, ",TRUE,Credential Access,"
+
+    [threat actor, mapp, network],
+    [threat actor, obtained, credentials],
+    [threat actor, began to , move laterally]
+","  [threat actor, mapped, the network],
+        [threat actor, obtained, credentials],
+        [threat actor, moved, laterally]"
+"A shortcut to userPassword in directory, which will allow password change operation to be performed over LDAP.","Credential Access, ",TRUE,Credential Access,"[shortcut,to,userPassword],[shortcut,allow,password change operation],[password change operation,be performed, over LDAP]","[[Shortcut, provides access to, userPassword],[Directory, contains information on, userPassword],[Shortcut, enables, password change operation over LDAP]]"
+"The IRC variant of MPK has a command set (Table 2) that makes this an effective backdoor Trojan, specifically allowing the actors to steal credentials from the targeted system via keylogging, to navigate and interact with the file system, to run arbitrary commands, and to download and execute additional tools on the system.","Collection, Credential Access, ",TRUE,Credential Access,"    [MPK IRC variant, has, command set],
+[actors,steal,credentials],[actors,navigate and interact with ,file system],[actors,run, arbitrary commands],[actors,execute, additional tools]","  [IRC variant of MPK, has, command set (Table 2)],
+    [MPK, is, backdoor Trojan],
+    [cyber actors, steal, credentials from targeted system],
+    [cyber actors, via, keylogging],
+    [cyber actors, navigate and interact, file system],
+    [cyber actors, run arbitrary commands],
+    [cyber actors, download and execute, additional tools]"
+The wiper module of Shamoon 2.0 has been designed to run as either a wiper or an encryptor (ransomware).,"Impact, Collection, Discovery, ",TRUE,Discovery,"
+    The wiper module ... an encryptor (ransomware).: [
+        [Shamoon 2.0, has, a wiper module],
+        [wiper module, is designed to run as , wiper],   [wiper module, is designed to run as , encryptor],
+","  [Shamoon 2.0, has, a wiper module],
+    [wiper module, is designed to run as, either a wiper or an encryptor],
+    [Shamoon 2.0, has been designed to run as, an encryptor (ransomware)]"
+Turla operators could use an already-compromised machine in the network of the victim?s organization to perform a local MitM attack.,"Discovery, ",TRUE,Discovery,"
+
+  [Turla operators, use, an already-compromised machine],
+    [Turla operators, perform, a local MitM attack],
+ 
+","[    [Turla operators, use, an already-compromised machine],    [Turla operators, perform, a local MitM attack],    [Turla operators, target, the victim\s organization],    [machine, compromise, within the network]  ]"
+"A request is generated containing the identifier of the infected computer, a value presumably indicating the version of the bot; information about the system (OS version, service pack version, product type); a hardcoded dword (value in the investigated sample ? seven); control sums for the banker module; and information about the web-injects.","Discovery, ",TRUE,Discovery,"   [request, containsd, identifier],
+    [request, with,  version information],
+    [request, contains, system information],
+    [request, contains, a hardcoded dword],
+    [request, contains, banker module control sums],
+    [request, contains, web-inject information]"," [request, contain, the identifier of the infected computer],
+    [request, contain, a value presumably indicating the version of the bot],
+    [request, contain, information about the system (OS version, service pack version, product type)],
+    [request, contain, a hardcoded dword (value in the investigated sample ? seven)],
+    [request, contain, control sums for the banker module],
+    [request, contain, information about the web-injects]"
+"It enumerates all usb storage devices connected to the system and retrieves data from all, including SCSI mass storage devices.","Collection, Discovery, ",TRUE,Discovery,"[It, enumerates, all usb storage devices],[It, retrieves data from, all usb storage devices]"," [SUBJECT:It, RELATION:enumerates, OBJECT:all usb storage devices connected to the system],
+    [SUBJECT:It, RELATION:retrieves, OBJECT:data from all usb storage devices connected to the system],
+    [SUBJECT:It, RELATION:retrieves, OBJECT:data from all SCSI mass storage devices connected to the system]
+ "
+"Like other Zebrocy samples, this Trojan collects system specific information it will send to the C2 server by running the command SYSTEMINFO & TASKLIST on the command line and by enumerating information about connected storage devices.","Exfiltration, Discovery, ",TRUE,Discovery,"
+
+        [Zebrocy,collect,system specific information], [Zebrocy,run,the command SYSTEMINFO & TASKLIST], [Zebrocy,enumerating,information about connected storage devices]","  [Zebrocy, collects, system specific information],
+        [Zebrocy, sends, information to the C2 server],
+        [Zebrocy, runs, command SYSTEMINFO & TASKLIST],
+        [Zebrocy, enumerates, information about connected storage devices]"
+"Once installed , these versions collect information about the infected computer and send it to the command server .","Exfiltration, Discovery, ",TRUE,Discovery,"    [These versions, collect, information],
+    [These versions, send to, information],","  [versions, collect information about, infected computer],
+    [versions, send it to, command server],
+    [computer, send, command server]"
+"Once inside the network of their target, the attackers apparently use the SoftPerfect Network Scanner to identify and create target lists of computers with open SMB ports, and subsequently may have used Mimikatz, Mimidogz, or Mimikittenz to obtain credentials.","Credential Access, Discovery, ",TRUE,Discovery,"[attackers, use, SoftPerfect Network Scanner],    [attackers, identify and create, target lists of computers with open SMB portsr],
+    [attackers, use, Mimikatz],
+    [attackers, use, Mimidogz],
+    [attackers, use, Mimikittenz]
+ 
+","  [[Once inside, use, SoftPerfect Network Scanner],
+    [attackers, identify, computers with open SMB ports],
+    [attackers, create, target lists],
+    [attackers, use, Mimikatz],
+    [attackers, use, Mimidogz],
+    [attackers, use, Mimikittenz],
+    [attackers, obtain, credentials]"
+"After determining that it is not running in a debugger, the payload performs an anti-analysis/sandbox check by issuing a GET request to Google, to check for Internet connectivity.","Discovery, ",TRUE,Discovery,"
+[payload, performs, anti-analysis/sandbox check], [payload, issues, GET request to Google]
+","{After determining ... Internet connectivity:[
+    [payload, performs, anti-analysis/sandbox check],
+    [payload, issues a GET request, to Google],
+    [Google, receives, the GET request from the payload]
+  ]}"
+"At preprogrammed intervals it would search for windows entitled Legend of Mir 2 , and then send all the data entered in the windows to the malicious users email .","Discovery, Exfiltration, ",TRUE,Discovery,"
+
+    [it,  search for, windows entitled Legend of Mir 2,]
+  [it,send,data]
+","{At preprogrammed ... email .:[
+    [Preprogrammed intervals, search for windows, Legend of Mir 2],
+    [Legend of Mir 2, send, all the data entered in the windows],
+    [Malicious users, receive, all the data entered in the windows]
+]}"
+The malware sends user information encrypted to the attacker server and attempts to download a final stage implant .,"Exfiltration, Discovery, ",TRUE,Discovery,"
+
+    [malware, sends, user information],
+    [malware, attempts to download, a final stage implant]
+ 
+","[    [malware, sends, user information],    [malware, sends, user information encrypted],    [malware, sends, user information to the attacker server],    [malware, attempts to download, a final stage implant]  ]"
+"The malware proceeds to identify the file path of either the common startup folder, or the user?s startup folder depending on if the SeDebugPrivilege privilege was obtained.","Discovery, ",TRUE,Discovery,"
+   [malware, identifies, common startup folder],
+   [malware, identifies, user\s startup folder],
+   [malware, check, SeDebugPrivilege privilege]
+
+","{The malware ... was obtained.:[
+    [malware, proceeds to identify, file path of the common startup folder],
+    [malware, proceeds to identify, file path of the users startup folder],
+    [malware, checks, if the SeDebugPrivilege privilege was obtained]
+]}"
+"The affiliate ID and the victim ID are sent to Lockys CC servers , allowing the threat actors to determine how to distribute ransom payments .","Exfiltration, Discovery, ",TRUE,Discovery,"
+    [affiliate ID, is sent to, Lockys CC servers],
+    [victim ID, is sent to, Lockys CC servers],
+
+","{The affiliate ... payments .:[
+        [Locky, use, affiliate ID and the victim ID],
+        [The affiliate ID, is sent, to Lockys CC servers],
+        [The victim ID, is sent, to Lockys CC servers],
+        [Lockys CC servers, receive, The affiliate ID],
+        [Lockys CC servers, receive, The victim ID],
+        [The threat actors, determine, how to distribute ransom payments]
+    ]
+}"
+"In addition , Svpeng collects an impressive amount of information from the users phone the call history , text and multimedia messages , browser bookmarks and contacts .","Discovery, ",TRUE,Discovery,"
+    [Svpeng, collects, information],
+    [Svpeng, collects, call history],
+    [Svpeng, collects, text messages],
+    [Svpeng, collects, multimedia messages],
+    [Svpeng, collects, browser bookmarks],
+    [Svpeng, collects, contacts]
+ ","{In addition, ... contacts .:[
+        [Svpeng, collects, an impressive amount of information],
+        [Svpeng, collects, from the users phone],
+        [Svpeng, collects, the call history],
+        [Svpeng, collects, text and multimedia messages],
+        [Svpeng, collects, browser bookmarks],
+        [Svpeng, collects, contacts],
+    ]
+}"
+"When injected to a browser, this malicious DLL compares the accessed site with the strings contained in the previously downloaded configuration file.","Execution, ",TRUE,Execution,"
+    [malicious DLL, compares, accessed site],
+    [DLL, compares, strings contained in the previously downloaded configuration file]
+ 
+","{
+    [malicious DLL, compares, accessed site]: 2,
+    [malicious DLL, compares, the strings contained in the previously downloaded configuration file]: 1,
+    [malicious DLL, is injected to, a browser]: 1,
+    [malicious DLL, uses, the strings contained in the previously downloaded configuration file]: 1,
+    [browser, injected, malicious DLL]: 1
+}"
+"To persistently execute when the system starts, the script will create the following shortcut in the Windows startup folder, which will run the OneDrive.ps1 script each time the user logs in:","Persistence, Execution, ",TRUE,Execution,"        [script, create shortcut at, Windows startup folder],
+        [short cut, run, OneDrive.ps1 script]","{To persistently ... logs in::[
+        [script, create shortcut in, Windows startup folder],
+        [script, run, OneDrive.ps1 script]
+    ]
+}"
+The class file generated is launched without any privilege restrictions and receives values from the unpacked script as parameters .,"Execution, ",TRUE,Execution,"
+
+ [class file, is launched, without any privilege restrictions],
+    [class file, receives values, from the unpacked script]
+
+"," [SUBJECT:class file, RELATION:generated, OBJECT:launched without any privilege restrictions],
+    [SUBJECT:class file, RELATION:receives, OBJECT:values from the unpacked script as parameters]
+ "
+"This DLL serves three main functions: killing antimalware, unpacking and executing the main RAT DLL, and obtaining persistence.","Persistence, Defense Evasion, Execution, ",TRUE,Execution,"
+
+     
+        [This DLL, kill, antimalware],
+        [This DLL, unpack and execute, the main RAT DLL],
+        [This DLL, obtain, persistence],
+   
+","{This DLL ... main functions: killing antimalware, unpacking and executing the main RAT DLL, and obtaining persistence.:[
+    [The DLL, serves, three main functions],
+    [The DLL, kills, antimalware programs],
+    [The DLL, unpacks and executes, the RAT DLL],
+    [The DLL, obtains, persistence mechanism]
+  ]
+}"
+"The VBScript executes upon installation , adding a Windows registry entry to run it whenever the user logs into the computer .","Execution, Persistence, ",TRUE,Execution,"[VBScript, executes,  upon installation],
+[VBScript, add, Windows registry entry]
+[Windows registry entry , run, VBScript]","{The VBScript ... computer .:[
+        [VBScript, executes upon installation, adding a Windows registry entry],
+        [VBScript, run whenever, the user logs into the computer],
+        [VBScript, runs, whenever the user logs into the computer]
+    ]
+}"
+The PE loader first begins by resolving the addresses of imports commonly used by loaders and calling them.,"Execution, ",TRUE,Execution,"
+[PE loader, resolve, addresses of imports],[PE loader, call, addresses of imports]
+","{The PE ... calling them:[
+    [PE loader, begins by resolving, addresses of imports],
+    [PE loader, calls, imports],
+    [PE loader, resolve the addresses of imports, commonly used by loaders],
+    [PE loader, call, the imports]
+  ]
+}"
+"Then, if the file is downloaded successfully it executes the downloaded file by using the Invoke-Item cmdlet, and exits the loop.","Command and Control, Execution, ",TRUE,Execution,"[File, use,Invoke-Item cmdlet], [File, exits the loop],[File,executes, the downloaded file]","{Then, if ... the loop.:[
+    [file, is downloaded successfully, it executes the downloaded file],
+    [file, is downloaded successfully, using the Invoke-Item cmdlet],
+    [file, executes the downloaded file, using the Invoke-Item cmdlet],
+    [file, exits the loop, using the Invoke-Item cmdlet]
+  ]
+}"
+These files contained the CVE-2017-11882 and TSSL Suite infection chain.,"Execution, ",TRUE,Execution,"[files, contained, CVE-2017-11882],[files, contained, TSSL Suite infection chain]","{These files ... infection chain:[
+    [files, contained, CVE-2017-11882],
+    [files, contained, TSSL Suite infection chain],
+    [These files, contained, the CVE-2017-11882],
+    [These files, contained, the TSSL Suite]
+  ]
+}"
+"Again , an attacker would use a specially crafted web page to launch their attack and would end up with the access rights of the currently logged in user or could run arbitrary code on the target system .","Privilege Escalation, Execution, ",TRUE,Execution,"    [Attacker, use, a specially crafted web page],
+    [Attacker, gain, access rights of the currently logged in user],
+    [Attacker, run, arbitrary code on the target system]","{An attacker ... target system:[
+    [attacker, uses, specially crafted web page],
+    [attacker, launches, attack],
+    [attacker, ends up with, access rights],
+    [attacker, could run, arbitrary code],
+    [attacker, on, target system]
+  ]
+}"
+"Shell execution was disabled at this stage of the attack, they attackers executed the PowerShell script via a tool called PSUnlock that enabled them to bypass PowerShell execution restrictions.","Execution, ",TRUE,Execution,"
+    [attackers, executed the PowerShell script via, PSUnlock],
+    [PSUnlock, bypass, PowerShell execution restrictions]","{Shell execution ... execution restrictions.:[
+    [Shell, was disabled, at this stage of the attack],
+    [attackers, executed, PowerShell],
+    [PS Unlock, enabled, them to bypass PowerShell execution restrictions]
+  ]
+}"
+"Last week, researchers at Cisco Talos saw spear-phishing emails, with a similarly spoofed SEC address, bearing an attachment that used DDE to launch a ?complex multi-stage infection process,? typical of FIN7.","Initial Access, Execution, ",TRUE,Execution,"
+
+    [emails, contain, an attachment that used DDE],
+    [DDE, launch, infection process],
+","[    [Last week, researchers, see, spear-phishing emails],    [Cisco Talos researchers, see, emails with a spoofed SEC address],    [emails, contain, an attachment that used DDE],    [DDE, launch, infection process],    [process, typical, of FIN7]  ]"
+It then begins to loop through the memory of the target process looking for CHD and writing it out to the file specified by the config for exfiltration.,"Collection, ",TRUE,Collection,"[SUBJECT:It, RELATION: loop through, OBJECT:the memory of the target process],
+  [SUBJECT:It, RELATION:look for, OBJECT:CHD],
+    [SUBJECT:It, RELATION:write out, OBJECT:the file specified by the config]","[SUBJECT:It, RELATION:begins to loop, OBJECT:the memory of the target process],
+  [SUBJECT:It, RELATION:look for, OBJECT:CHD],
+   [ SUBJECT:It, RELATION:write out, OBJECT:the file specified by the config]
+"
+The collected information is first encrypted before sending it to the CC server to ensure security .,"Exfiltration, Collection, ",TRUE,Collection,"
+
+[The collected information, is encrypted, before sending it to the CC server],","{The collected ... ensure security.:[
+    [The collected information, is encrypted, before sending it to the CC server],
+    [The collected information, send, the CC server],
+    [The collected information, ensures, security]
+]}"
+"The rest of the collected information , including an archive with any screenshots or stolen passwords , is sent in the POST request data .","Exfiltration, Collection, ",TRUE,Collection,"[collected information,includes,archive with any screenshots or stolen passwords],[collected information,is sent in, POST request data]","{The rest ... request data:[
+        [SUBJECT:The rest of the collected information, RELATION:including, OBJECT:an archive with any screenshots or stolen passwords],
+        [SUBJECT:archive, RELATION:containing, OBJECT:screenshots or stolen passwords],
+        [SUBJECT:archive, RELATION:sent, OBJECT:in the POST request data]
+    ]
+}"
+Troj/FFSpyAmonitors your Google searches and sends this information to a remote server .,"Exfiltration, Collection, ",TRUE,Collection,"    [Troj/FFSpy, monitors, your Google searches],
+    [Troj/FFSpy, sends information to, a remote server]","{Troj/FFSpyAmonitors ... ... remote server.:[
+    [Troj/FFSpy, monitors, your Google searches],
+    [Troj/FFSpy, sends, this information],
+    [Troj/FFSpy, sends, to a remote server]
+  ]
+}"
+"Once infected a system , the malicious code is able executes a series of commands to collect information and exfiltrate data .","Collection, Exfiltration, ",TRUE,Collection,"    [malicious code, is able to,  executes a series of commands],
+    [malicious code, collects, information],
+    [malicious code, exfiltrate, data]","{Once infected ... exfiltrate data:[
+    [SUBJECT:malicious code, RELATION:able to execute, OBJECT:a series of commands],
+    [SUBJECT:malicious code, RELATION:collect, OBJECT:information],
+    [SUBJECT:malicious code, RELATION:exfiltrate, OBJECT:data]
+  ]
+}"
+Some SeaDuke samples have a module to extract email from Microsoft Exchange servers using compromised credentials.,Collection,TRUE,Collection,"[SeaDuke samples, have, module],[ module ,extract, email],[[SeaDuke samples,use, compromised credentials]","  [SeaDuke malware, has, a module],
+    [SeaDuke malware, extract email, Microsoft Exchange server],
+    [module, use, compromised credit]"
+The backdoor configuration and the data collected are stored in one of two places _ a working directory and working registry keys.,"Collection, ",TRUE,Collection,"
+[The backdoor configuration, is stored in, working directory ],[The backdoor configuration, is stored in, working registry keys],",":[[SUBJECT:The backdoor configuration, RELATION:is stored in, OBJECT:one of two places], [SUBJECT:data, RELATION:is collected, OBJECT:one of two places], [SUBJECT:one of two places, RELATION:includes, OBJECT:a working directory], [SUBJECT:one of two places, RELATION:includes, OBJECT:working registry keys]]"
+"XAgentOSX contains keylogging functionality that will monitor for active application windows and write them to the log, it can handle special characters, and it will buffer by default 50 characters before sending them out over the C2 infrastructure.","Collection, Credential Access, ",TRUE,Collection,"        [XAgentOSX, contains, keylogging functionality],
+        [keylogging functionality, monitor, active application windows],
+        [keylogging functionality, write, log],
+        [keylogging functionality, handle, special characters],
+        [keylogging functionality, buffer, 50 characters],
+        [keylogging functionality, send, characters]","{XAgentOSX contains ... C2 infrastructure.:[
+    [XAgentOSX, contains, keylogging functionality],
+    [XAgentOSX, can, handle special characters],
+    [XAgentOSX, will, buffer by default 50 characters],
+    [XAgentOSX, will, send them out over the C2 infrastructure],
+    [XAgentOSX, monitor, active application windows],
+    [XAgentOSX, write, them to the log]
+  ]
+}"
+"The dropped file is a keylogger that hooks certain APIs , steals information from the infected system , and sends stolen information to a specific URL .","Exfiltration, Collection, ",TRUE,Collection,"
+[dropped file, is, a keylogger],
+[keylogger, hooks, certain APIs],
+[keylogger, steals, information from the infected system],
+[keylogger, sends, stolen information]","{dropped file ... specific URL:[
+    [SUBJECT:dropped file, RELATION:is, OBJECT:keylogger],
+    [SUBJECT:keylogger, RELATION:hooks, OBJECT:APIs],
+    [SUBJECT:keylogger, RELATION:steals information from, OBJECT:infected system],
+    [SUBJECT:keylogger, RELATION:sends, OBJECT:stolen information to, OBJECT:specific URL]
+  ]
+}"
+"If a public key is in the config, the data in encrypted before writing it to the exfiltration file, otherwise it is written in plain text.","Collection, ",TRUE,Collection,"
+
+[data, is, encrypted],
+    [data, is written, in plain text],
+    [config, contain, public key]
+ 
+","{If a ... plain text:[
+    [[SUBJECT:data, RELATION:encrypted, OBJECT:public key],
+     [SUBJECT:data, RELATION:written, OBJECT:exfiltration file],
+     [SUBJECT:data, RELATION:written, OBJECT:plain text]],
+    [[SUBJECT:public key, RELATION:is in, OBJECT:config],
+     [SUBJECT:data, RELATION:is encrypted, OBJECT:before writing it to the exfiltration file],
+     [SUBJECT:data, RELATION:is written, OBJECT:in plain text]]
+  ]
+}"
+We find older Darkhotel information stealers dropped and run on the system by these downloaders.,"Collection, Command and Control, ",TRUE,Command and Control,"    [downloaders, dropped, older Darkhotel information stealers],    [downloaders, run, older Darkhotel information stealers]","{We find ... these downloaders:[
+    [SUBJECT:We, RELATION:find, OBJECT:older Darkhotel information stealers],
+    [SUBJECT:stealers, RELATION:drop, OBJECT:on the system],
+    [SUBJECT:stealers, RELATION:run, OBJECT:by these downloaders]
+]}"
+"From the victim machine , the bot connects back to main server over RDP .","Command and Control, ",TRUE,Command and Control,"   [bot, connects back to, main server],[bot, connects back to, RDP]","{From the ... over RDP.:[
+    [SUBJECT:bot, RELATION:connects back to, OBJECT:main server over RDP],
+    [SUBJECT:bot, RELATION:use, OBJECT:RDP]
+]}"
+"In this case , the boobytrapped server sent out a compiled HTML file with an embedded program script .","Command and Control, ",TRUE,Command and Control,"    [server, sent out, a compiled HTML file],
+    [HTML file, has, an embedded program script]","{In this ... program script.:[
+    [SUBJECT:boobytrapped server, RELATION:sent out, OBJECT:compiled HTML file],
+    [SUBJECT:compiled HTML file, RELATION:embedded, OBJECT:program script]
+  ]
+}"
+"Also , because the encryption key is stored inside the VBA malware , and never sent to the server during the XMLHTTP download , even a web filter that intercepts both the request and the reply wont have enough information to unscramble it for scanning .","Command and Control, ",TRUE,Command and Control," [encryption key, stored, VBA malware],","{Also , ... scanning .:[
+        [SUBJECT:encryption key, RELATION:stored inside, OBJECT:VBA malware],
+        [SUBJECT:VBA malware, RELATION:never sent to, OBJECT:server],
+        [SUBJECT:XMLHTTP, RELATION:download, OBJECT:server],
+        [SUBJECT:web filter, RELATION:intercepts, OBJECT:request],
+        [SUBJECT:web filter, RELATION:intercepts, OBJECT:reply],
+        [SUBJECT:web filter, RELATION:wont have, OBJECT:enough information],
+        [SUBJECT:web filter, RELATION:unscramble, OBJECT:scanning]
+    ]
+}"
+APT32 has added JavaScript to victim websites to download additional frameworks that profile and compromise website visitors.,"Command and Control, ",TRUE,Command and Control," [APT32, has added JavaScript to, victim websites],    [JavaScript, used to, download additional frameworks],   [additional frameworks, profile and compromise, website visitors],","{APT32 has ... website visitors:[
+    [SUBJECT:APT32, RELATION:has added, OBJECT:JavaScript],
+    [SUBJECT:JavaScript, RELATION:to, OBJECT:victim websites],
+    [SUBJECT:JavaScript, RELATION:downloads, OBJECT:additional frameworks],
+    [SUBJECT:additional frameworks, RELATION:profile, OBJECT:website visitors],
+    [SUBJECT:additional frameworks, RELATION:compromise, OBJECT:website visitors]
+  ]
+}"
+"Once in execution , PoSeidon starts with a loader binary that operates to ensure the persistence on the infected PoS machine , then it receives other components from the CC servers .","Persistence, Command and Control, ",TRUE,Command and Control,"   [PoSeidon, starts with, a loader binary],
+    [loader binary, operates to ensure, persistence],
+    [PoSeidon, receives other components, from the CC servers]",":[    [SUBJECT:PoSeidon, RELATION:starts with, OBJECT:loader binary],    [SUBJECT:loader binary, RELATION:operates to, OBJECT:ensure the persistence],    [SUBJECT:PoSeidon, RELATION:receives, OBJECT:other components],    [SUBJECT:PoSeidon, RELATION:from, OBJECT:CC servers]]"
+"Through named pipes, processes are able to communicate and exchange data even over a network.","Command and Control, ",TRUE,Command and Control,"    [processes, communicate with, other processes],
+    [processes, exchange data, over a network]","{Through named ... a network:[
+    [SUBJECT:processes, RELATION:are able to, OBJECT:exchange data],
+    [SUBJECT:processes, RELATION:communicate, OBJECT:over a network],
+    [SUBJECT:named pipes, RELATION:enable, OBJECT:processes to communicate]
+  ]
+}"
+"If executed in an environment that has macros enabled, the malware downloads its second stage components.","Command and Control, ",TRUE,Command and Control," [malware, downloads, second stage components]","{If executed ... stage components:[
+    [SUBJECT:If executed,RELATION:in an environment,OBJECT:macros enabled],
+    [SUBJECT:malware,RELATION:downloads,OBJECT:second stage components]
+]}"
+"If prescanner has made the decision to ensure persistence on the machine , it reports this to the mini downloader , which in turn downloads and executes the core module the bots main body .","Persistence, Command and Control, Execution, ",TRUE,Command and Control,"   [prescanner, reports this to, the mini downloader],    [mini downloader, downloads, the core module],
+    [mini downloader, executes, the core module],"," [prescanner, decides, persistence on the machine],
+    [prescanner, reports, mini downloader],
+    [mini downloader, downloads, core module],
+    [mini downloader, executes, bots main body]"
+"When Drive.vbs is eventually executed by the task scheduler, it will download the BackConfig executable payload.","Command and Control, Execution, ",TRUE,Command and Control,"[Drive.vbs, is executed by, the task scheduler], [Drive.vbs, downloads, the BackConfig executable payload]","{When Drive.vbs ... executable payload:[
+    [SUBJECT:Drive.vbs, RELATION:is executed by, OBJECT:task scheduler],
+    [SUBJECT:Drive.vbs, RELATION:will download, OBJECT:BackConfig executable payload]
+  ]
+}"
+"During this process, the active user?s credentials are passed through the attempted SMB connection.","Exfiltration, ",TRUE,Exfiltration,"[credentials,are passed through,attempted SMB connection]","{During this ... SMB connection.:[
+    [SUBJECT:active user, RELATION:pass, OBJECT:credentials],
+    [SUBJECT:active users credentials, RELATION:are passed through, OBJECT:attempted SMB connection]
+]}"
+The malware uses Discord to send the stolen cookie to a specified channel or user also connected to Discord .,"Exfiltration,",TRUE,Exfiltration,"    [malware, use, Discord],
+    [Discord, send, stolen cookie],
+","{The malware ... to Discord:[
+    [SUBJECT:Malware, RELATION:uses, OBJECT:Discord],
+    [SUBJECT:Malware, RELATION:send, OBJECT:stolen cookie],
+    [SUBJECT:Malware, RELATION:send, OBJECT:a specified channel],
+    [SUBJECT:Malware, RELATION:send, OBJECT:user also connected to Discord]
+  ]
+}"
+"After this upload request is made, the malware looks for the presence of a file named uplog.tmp.","Exfiltration, Discovery, ",TRUE,Exfiltration,"    [Some malware, look for, the file uplog.tmp]","{After this ... named uplog.tmp.:[
+    [SUBJECT:malware, RELATION:looks for, OBJECT:presence of a file named uplog.tmp],
+    [SUBJECT:malware, RELATION:looks for, OBJECT:file named uplog.tmp]
+]}"
+This collected information is encoded with base64 and sent it to its C&C server.,"Exfiltration, ",TRUE,Exfiltration,"    [This collected information, is encoded ,with base64],
+    [This collected information, is sent to , its C&C server]","{This collected ... C&C server.:[
+    [SUBJECT:information, RELATION:encoded with base64, OBJECT:C&C server],
+    [SUBJECT:information, RELATION:sent, OBJECT:C&C server]
+]}"
+The report is then sent out in a post request to a preconfigured C2 server and a gate path.,"Exfiltration, ",TRUE,Exfiltration,"      [report, sent out, a post request],
+        [report, sent to, a preconfigured C2 server],
+        [report, sent to, a gate path]","{The report ... gate path:[
+    [SUBJECT:The report, RELATION:sent out, OBJECT:a post request to a preconfigured C2 server],
+    [SUBJECT:The report, RELATION:sent out, OBJECT:a gate path]
+]}"
+"From time to time , the database gets sent to the person that controls the keylogger .","Exfiltration, ",TRUE,Exfiltration," [database, gets sent to, the person that controls the keylogger]","{From time ... the keylogger.:[
+    [
+      SUBJECT:The database,
+      RELATION:gets sent to and is controlled by,
+      OBJECT:the person that controls the keylogger
+    ]
+  ]
+}"
+"Next , the malware generates a fake token ( a random number ) and the data entered by the user is sent to the cybercriminals mobile number and remote server complete with the IMEI and IMSI numbers .","Exfiltration, Discovery, ",TRUE,Exfiltration,"[malware, generates,  a fake token],    [malware, sends the data entered by the user, to the cybercriminals mobile number],
+    [malware, sends the data entered by the user, to a remote server],","{Next, the ... IMSI numbers:[
+    [Malware, generates a fake token, a random number],
+    [Malware, sends, the data entered by the user],
+    [Malware, sends, the cybercriminals mobile number],
+    [Malware, sends, a remote server],
+    [Malware, sends, the IMEI number],
+    [Malware, sends, the IMSI number]
+  ]
+}"
+"At preprogrammed intervals it would search for windows entitled Legend of Mir 2 , and then send all the data entered in the windows to the malicious users email .","Discovery, Exfiltration, ",TRUE,Exfiltration,"[ it,search for, windows entitled Legend of Mir 2],[it,send,all data]","{At preprogrammed ... email .:[
+    [subject: the malware, relation: searches for, object: windows entitled Legend of Mir 2],
+    [subject: the malware, relation: sends, object: all the data entered in the windows],
+    [subject: the malware, relation: sends, object: the malicious users email]
+  ]
+}"
+"File exfiltration is done via SMTP port 26, with the SMTP credentials hardcoded encrypted in the malware code.","Exfiltration, ",TRUE,Exfiltration,"[file exfiltration, is done via, SMTP port 26],   [SMTP credentials, are hardcoded encrypted in, the malware code]","{File exfiltration ... malware code:[
+    [SUBJECT:File exfiltration, RELATION:done, OBJECT:SMTP port 26],
+    [SUBJECT:SMTP, RELATION:associated with, OBJECT:port 26],
+    [SUBJECT:SMTP credentials, RELATION:hardcoded, OBJECT:encrypted in the malware code],
+    [SUBJECT:SMTP port 26, RELATION:use, OBJECT:File exfiltration],
+    [SUBJECT:SMTP credentials, RELATION:hardcoded, OBJECT:malware code]
+  ]
+}"
+"After gaining remote control of the target machine, hackers use Mimikatz-based software and Meterpreter capabilities to download data on user and administrator accounts from the domain.","Exfiltration, Collection, ",TRUE,Exfiltration,"    [hacker, use, Mimikatz-based software],    [hacker, use, Meterpreter capabilities],
+    [hacker, download, data on user and administrator accounts],","   [hackers, gain, remote control of the target machine],
+        [hackers, use, Mimikatz-based software],
+        [hackers, use, Meterpreter capabilities],
+        [hackers, download, data on user and administrator accounts from the domain]"
+Janicab captured audio and sent it out to a C2 server.,"Exfiltration, Collection, ",TRUE,Exfiltration,"[Janicab, captured, audio], [Janicab, sent, audio]","{Janicab captured ... C2 server.:[
+    [SUBJECT:Janicab, RELATION:capture, OBJECT:audio],
+    [SUBJECT:Janicab, RELATION:send, OBJECT:C2 server],
+    [SUBJECT:Janicab, RELATION:captured, OBJECT:audio],
+    [SUBJECT:Janicab, RELATION:sent, OBJECT:audio]
+  ]
+}"
+"As soon as the user visits the webpage noted in the configuration file and enters their data , ZeuS intercepts it and forwards it to the malicious user .","Exfiltration, Collection, ",TRUE,Exfiltration,"[ZeuS, intercepts, data], [ZeuS, forwards, data to the malicious user]","{As soon ... malicious user:[
+    [SUBJECT:user, RELATION:visits, OBJECT:webpage],
+    [SUBJECT:user, RELATION:enters, OBJECT:data],
+    [SUBJECT:ZeuS, RELATION:intercepts, OBJECT:data],
+    [SUBJECT:ZeuS, RELATION:forwards, OBJECT:data],
+    [SUBJECT:ZeuS, RELATION:forwards, OBJECT:malicious user]
+  ]
+}"
+It writes the command results in another OneDrive subfolder and encrypts it with the XOR key 0xAA.,"Impact, ",TRUE,Impact,"    [It, writes the command results, in another OneDrive subfolder],
+    [It, encrypts, with the XOR key 0xAA]","{It writes ... key 0xAA:[
+        [SUBJECT:It, RELATION:writes the command results, OBJECT:another OneDrive subfolder],
+        [SUBJECT:It, RELATION:encrypts, OBJECT:the command results],
+        [SUBJECT:It, RELATION:use, OBJECT:XOR key 0xAA]
+    ]
+}"
+The malware adds the .xcrypted file extension to already-encrypted files.,"Impact, ",TRUE,Impact,"    [The malware, adds, the .xcrypted file extension],
+","{The malware ... already-encrypted files.:[
+    [malware, adds, .xcrypted file extension],
+    [malware, target, already-encrypted files]
+  ]
+}"
+"Fast forward to late 2017 and the group continues to deploy its malicious tools, including disk-wiping malware known as KillDisk, to attack a number of targets.","Impact, ",TRUE,Impact,"  [the group, use, disk-wiping malware known as KillDisk],","{
+    source sentence1:[
+        [SUBJECT:Fast forward, RELATION:in late 2017, OBJECT:the group],
+        [SUBJECT:group, RELATION:continue to deploy, OBJECT:malicious tools],
+        [SUBJECT:tools, RELATION:include, OBJECT:disk-wiping malware known as KillDisk],
+        [SUBJECT:group, RELATION:attack, OBJECT:a number of targets]
+    ]
+}"
+"The bad guys take over these accounts , upload the data on the databases , delete that data , and replace it with a ransom demand .","Impact, Exfiltration, ",TRUE,Impact,"     [The bad guys, take over, these accounts],
+        [The bad guys, upload, the data],
+        [The bad guys, delete, that data],
+        [The bad guys, replace, a ransom demand]","{The bad ... demand .:[
+    [SUBJECT:The bad guys, RELATION:take over, OBJECT:accounts],
+    [SUBJECT:The bad guys, RELATION:upload, OBJECT:data],
+    [SUBJECT:The bad guys, RELATION:delete, OBJECT:data],
+    [SUBJECT:The bad guys, RELATION:replace, OBJECT:a ransom demand],
+]}"
+"From its first appearance, SamSam used batch files for certain operations while spreading across the network and executing the ransomware.","Impact, Lateral Movement, ",TRUE,Impact,"        [SamSam, use, batch files],
+        [SamSam, spread,across the network],
+        [SamSam, execute, ransomware]","{SamSam used ... the ransomware.:[
+    [SUBJECT:SamSam,RELATION:used batch files for, OBJECT:certain operations],
+    [SUBJECT:SamSam,RELATION:spread, OBJECT:across the network],
+    [SUBJECT:SamSam,RELATION:execute, OBJECT:the ransomware]
+  ]
+}"
+"Finally, it deletes Shadow Volume Copies and prevent the victim from using Shadow Volumes to recover their encrypted files.","Impact, ",TRUE,Impact,"[it,deletes ,Shadow Volume Copies]","{Finally, it ... encrypted files:[
+    [SUBJECT:it, RELATION:deletes, OBJECT:Shadow Volume Copies],
+    [SUBJECT:it, RELATION:prevent, OBJECT:the victim],
+    [SUBJECT:victim, RELATION:use, OBJECT:Shadow Volumes],
+    [SUBJECT:victim, RELATION:recover, OBJECT:their encrypted files]
+]}"
+Prolaco ) containing archived malicious files that once run would allow an attacker to seize control over the infected machine and dispose of the stored data at will or used as zombies in DDoS attacks .,"Impact, ",TRUE,Impact,"  [Prolaco, containing, archived malicious files],    [attacker, control over,  the infected machine],   [the infected machine, used as zombies, in DDoS attacks]","{Formbook and ... are malware:[[Formbook, is, malware], [XLoader, is, malware]],
+  Malware save text file in desktop:[[Malware, save, text file]]
+}"
+"Regardless of whether or not a file is selected for destruction by overwriting its data, the file is deleted via a call to DeleteFile.","Impact, ",TRUE,Impact,"   [selected file, is, deleted],    [selected file, is, deleted via a call to DeleteFile]","[SUBJECT:file, RELATION:selected for destruction, OBJECT:overwriting its data],
+        [SUBJECT:file, RELATION:deleted, OBJECT:call to DeleteFile]"
+The backdoor implements an anti-analysis countermeasure that usesto shutdown the machine if one of the following tools is found to be running:,"Impact, Defense Evasion, ",TRUE,Impact,"        [The backdoor, implements, an anti-analysis countermeasure],
+        [The backdoor, shuts down, the machine],
+        [The backdoor, checks for, the following tools]","{The backdoor ... be running::[
+    [SUBJECT:The backdoor, RELATION:implements, OBJECT:an anti-analysis countermeasure],
+    [SUBJECT:The backdoor, RELATION:shutdown, OBJECT:the machine],
+    [SUBJECT:The backdoor, RELATION:detect, OBJECT:one of the following tools],
+    [SUBJECT:tools, RELATION:found, OBJECT:to be running]
+]}"
+"One of those othersis Writer , which if opened via a specially crafted URL , could allow an attackerto override Windows Writer proxy settings and overwrite files accessible to theuser on that system .",Impact,TRUE,Impact,"   [Writer, open via, specially crafted URL],    [Attacker, write, files accessible to the user on that system],[Attacker, override, Windows Writer proxy settings]","{One of ... that system:[
+    [SUBJECT:Writer, RELATION:is, OBJECT:specially crafted URL],
+    [SUBJECT:Writer, RELATION:allow, OBJECT:attacker],
+    [SUBJECT:attacker, RELATION:override, OBJECT:Windows Writer proxy settings],
+    [SUBJECT:attacker, RELATION:overwrite, OBJECT:files accessible to the user],
+    [SUBJECT:user, RELATION:on, OBJECT:that system]
+]}"
+"Attack Overview Petya is a ransomware family that works by modifying the Windows systems Master Boot Record ( MBR ) , causing the system to crash .","Impact, ",TRUE,Impact,"[Petya, is, a ransomware family],
+   [Petya, modifying, Windows systems Master Boot Record ( MBR ) ],
+   [Petya, causing, the system to crash]","{Petya ... ... systems MBR:[
+    [SUBJECT:Petya, RELATION:is a ransomware family that works by modifying, OBJECT:Windows systems Master Boot Record ( MBR )],
+    [SUBJECT:Petya, RELATION:causes, OBJECT:the system to crash]
+]}"
+"While the malware uses a weak username and password dictionary to brute force itself into the service, it is also able to update its set from the C&C server, delete all the databases, and display the ransom message.","Impact, Command and Control, Credential Access,",TRUE,Impact,"    [malware, uses, weak username and password dictionary],
+    [malware, updates, its set from the C&C server],
+    [malware, deletes, all the databases],
+    [malware, displays, the ransom message]","{While the ... ransom message:[
+    [SUBJECT:malware, RELATION:use, OBJECT:weak username and password dictionary],
+    [SUBJECT:malware, RELATION:brute force, OBJECT:service],
+    [SUBJECT:malware, RELATION:update, OBJECT:set],
+    [SUBJECT:malware, RELATION:delete, OBJECT:all databases],
+    [SUBJECT:malware, RELATION:display, OBJECT:ransom message]
+  ]
+}"
+"Additionally , a malicious script on the page attempts to load malicious content from another remote site in order to exploit a whole variety of browser vulnerabilities .","Initial Access, ",TRUE,Initial Access,"    [Malicious script, load, malicious content]","{Additionally, a ... browser vulnerabilities:[
+    [SUBJECT:Script, RELATION:attempts to load, OBJECT:malicious content],
+    [SUBJECT:Script, RELATION:load from, OBJECT:another remote site],
+    [SUBJECT:Script, RELATION:exploit, OBJECT:browser vulnerabilities]
+  ]
+}"
+RAR SFX directives are used to display the decoy while the malicious payload is executed.,"Initial Access, ",TRUE,Initial Access,"[RAR SFX directives, are used to display, the decoy]","{RAR SFX ... is executed.:[
+    [SUBJECT:RAR SFX directives, RELATION:are used to display, OBJECT:the decoy],
+    [SUBJECT:RAR SFX directives, RELATION:are used to display, OBJECT:decoy],
+    [SUBJECT:SFX directives, RELATION:while, OBJECT:malicious payload is executed]
+  ]
+}"
+"An actor deployed MAZE ransomware to tens of hosts, explicitly logging into each system using a domain administrator account created earlier in the intrusion.","Initial Access, ",TRUE,Initial Access,"[actor,deployed,MAZE ransomware],[actor,use,a domain administrator account]","{An actor ... the intrusion.:[
+    [An actor, deployed, MAZE ransomware],
+    [An actor, logged into, each system],
+    [An actor, used, a domain administrator account]
+  ]
+}"
+Using previously stolen credentials the attacker logged into a domain controller and copied tools into the %TEMP% directory.,"Initial Access, ",TRUE,Initial Access,"[attacker, use, previously stolen credentials],[attacker, log into, domain controller],[attacker, copy tools, into the %TEMP% directory]","{Using previously ... %TEMP% directory:[
+    [attacker, logged into, domain controller],
+    [attacker, copied, tools],
+    [attacker, accessed, %TEMP% directory]
+]}"
+"After the phishing email resulted in a successful infiltration, ITG08 used the More_eggs backdoor to gain a foothold and infect additional devices.","Initial Access,Lateral Movement ",TRUE,Initial Access," [ITG08, use, More_eggs backdoor],
+    [ITG08, gain, foothold],
+    [ITG08, infect, additional devices]","{After the ... additional devices:[
+    [[SUBJECT:phishing email, RELATION:resulted in, OBJECT:successful infiltration],
+    [SUBJECT:ITG08, RELATION:use, OBJECT:the More_eggs backdoor],
+    [SUBJECT:ITG08, RELATION:gain, OBJECT:a foothold],
+    [SUBJECT:ITG08, RELATION:infect, OBJECT:additional devices]
+  ]
+}"
+"In two spear phishing emails sent early in the campaign, the operator used a second exploit document in addition to the PPSX files described previously to deploy DMShell.","Initial Access, ",TRUE,Initial Access,"    [the operator, used, a second exploit document], [the operator, used, the PPSX files],[a second exploit document,deployed,DMShell],[operator,deployed,DMShell]","{In two ... deployed DMShell:[
+        [SUBJECT:spear phishing emails, RELATION:sent out, OBJECT:early in the campaign],
+        [SUBJECT:the operator, RELATION:utilized, OBJECT:second exploit document],
+        [SUBJECT:the operator, RELATION:utilized, OBJECT:PPSX files],
+        [SUBJECT:the operator, RELATION:dropped, OBJECT:DMShell]
+    ]
+}"
+"The document attached to this e-mail exploits CVE-2012-0158, a Microsoft Office vulnerability.","Execution,Initial Access, ",TRUE,Initial Access,"[Document, exploits, CVE-2012-0158],","{The document ... Office vulnerability.:[
+    [SUBJECT:document attached to this e-mail, RELATION:exploits, OBJECT:CVE-2012-0158],
+    [SUBJECT:CVE-2012-0158, RELATION:a Microsoft Office vulnerability]
+]}"
+The attackers modify the content of the website and include a JavaScript file from a malicious server .,"Execution,Initial Access, ",TRUE,Initial Access,"   [attackers, modify, content of the website],    [attackers, include, JavaScript file from a malicious server]","{The attackers ... malicious server.:[
+    [attackers, modify, content of the website],
+    [attackers, include, JavaScript file],
+    [attackers, from, malicious server],
+]}"
+These early campaigns were distributed via the Lerspeng downloader while later campaigns occasionally used Pony or Andromeda as intermediate loaders to distribute various instances of Dridex.,"Initial Access, ",TRUE,Initial Access,"  [These early campaigns, were distributed via, the Lerspeng downloader],  [later campaigns, used, Pony], [later campaigns, used, Andromeda], [Pony or Andromeda, as intermediate loaders, to distribute various instances of Dridex]","{These early ... of Dridex.:[
+    [early campaigns, distributed via, Lerspeng downloader],
+    [early campaigns, distributed via, Pony],
+    [early campaigns, distributed via, Andromeda],
+    [later campaigns, occasionally used, Pony],
+    [later campaigns, occasionally used, Andromeda],
+    [later campaigns, used, Dridex]
+  ]
+}"
+The site contains a phishing page thatasksusers to input their banking credentials .,"Credential Access,Initial Access, ",TRUE,Initial Access,"[site, contains, a phishing page]","{The site ... banking credentials:[
+    [site, contains, phishing page],
+    [phishing page, asks, users],
+    [users, input, credentials]
+]}"
+"In addition to using RDP for lateral movement, APT39 has used this protocol to maintain persistence in a victim environment.","Lateral Movement, Persistence, ",TRUE,Persistence,"     [APT39, use, RDP for lateral movement],
+        [APT39, use, RDP for maintaining persistence],","{In addition ... victim environment:[
+    [SUBJECT:APT39, RELATION:use, OBJECT:RDP for lateral movement],
+    [SUBJECT:APT39, RELATION:use, OBJECT:RDP to maintain persistence],
+    [SUBJECT:APT39, RELATION:use, OBJECT:this protocol to maintain persistence],
+    [SUBJECT:APT39, RELATION:use, OBJECT:RDP in a victim environment]
+  ]
+}"
+"Status? will be created, set to run every three minutes, as seen in Figure 3.","Persistence, ",TRUE,Persistence,"[Status, set to, run every three minutes]","{Status? will ... Figure 3.:[
+    [SUBJECT:Status?, RELATION:will be created, OBJECT:set to run every three minutes],
+    [SUBJECT:Status?, RELATION:is seen, OBJECT:Figure 3]
+]}"
+It is also responsible for creating registry keys used for persistence and tries to be invisible for the firewall by adding itself to the list of Authorized Applications ( but effectiveness of it varies depending on the version of Windows ) .,"Persistence, Defense Evasion, ",TRUE,Persistence,"[it,creating,registry keys used for persistence],[it,add to,the list of Authorized Applications],",":[    [SUBJECT:It, RELATION:is responsible for creating, OBJECT:registry keys],    [SUBJECT:It, RELATION:use for, OBJECT:persistence],    [SUBJECT:It, RELATION:tries to be invisible, OBJECT:the firewall],    [SUBJECT:It, RELATION:add, OBJECT:itself to the list of Authorized Applications],    [SUBJECT:It, RELATION:vary in effectiveness, OBJECT:the version of Windows]]"
+The persistence script runs the malware downloader if it has not run yet .,"Persistence, Execution, ",TRUE,Persistence,"[The persistence script, runs, the malware downloader]","{The persistence ... run yet:[
+    [SUBJECT:persistence script, RELATION:runs, OBJECT:malware downloader],
+    [SUBJECT:The persistence script, RELATION:checks, OBJECT:if it has not run yet]
+]}"
+"The macro then creates a scheduled task with name: GoogleUpdateTaskMachineUI , which executes update.vbs every three minutes.","Persistence, ",TRUE,Persistence,"[macro, create, scheduled task],
+    [scheduled task, with name, GoogleUpdateTaskMachineUI],
+    [scheduled task, execute, update.vbs]","[SUBJECT:macro, RELATION:creates, OBJECT:scheduled task],
+    [SUBJECT:scheduled task, RELATION:has name, OBJECT:GoogleUpdateTaskMachineUI],
+    [SUBJECT:scheduled task, RELATION:executes, OBJECT:update.vbs],
+    [SUBJECT:update.vbs, RELATION:executes, OBJECT:every three minutes]"
+IndiaJuliett does this by setting the registry key HKEY_ LOCAL_MACHINE\SYSTEM\CurrentControlSet\,"Persistence, ",TRUE,Persistence,"    [IndiaJuliett, sets, registry key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet],","{IndiaJuliett does ... key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet:[
+    [SUBJECT:IndiaJuliett, RELATION:set, OBJECT:registry key HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet]
+  ]
+}"
+DeltaAlfa operates as a service DLL supported by svchost.,"Persistence, ",TRUE,Persistence,"    [DeltaAlfa, operates as, service DLL],
+    [svchost, supports, DeltaAlfa]","{DeltaAlfa operates ... by svchost.:[
+    [SUBJECT:DeltaAlfa, RELATION:operates as, OBJECT:service DLL],
+    [SUBJECT:DeltaAlfa, RELATION:supported by, OBJECT:svchost]
+]}"
+Ursnif has registered itself as a system service in the Registry for automatic execution at system startup.,"Persistence, ",TRUE,Persistence,"   [Ursnif, registered itself, as a service], [Ursnif, registered itself, in the Registry],","{Ursnif has ... system startup.:[
+    [
+      SUBJECT:Ursnif,
+      RELATION:registered itself as,
+      OBJECT:a system service in the Registry
+    ],
+    [
+      SUBJECT:Ursnif,
+      RELATION:enable,
+      OBJECT:automatic execution
+    ],
+    [
+      SUBJECT:Ursnif,
+      RELATION:at,
+      OBJECT:system startup
+    ]
+  ]
+}"
+RogueRobin establishes persistence by creating a shortcut (.LNK file) in the Windows startup folder to run a script each time the user logs in.,"Persistence, ",TRUE,Persistence,"        [RogueRobin, creates a shortcut (.LNK file), in the Windows startup folder],
+        [RogueRobin, run a script, each time the user logs in]","{RogueRobin establishes ... logs in:[
+    [RogueRobin, establishes persistence, creating a shortcut (.LNK file)],
+    [RogueRobin, places, a shortcut (.LNK file)],
+    [RogueRobin, designed to, run a script each time the user logs in],
+    [RogueRobin, create, shortcut (.LNK file)],
+    [RogueRobin, create, Windows startup folder],
+    [RogueRobin, run, script],
+    [RogueRobin, execute, script],
+    [RogueRobin, trigger, script each time the user logs in]
+  ]
+}"
+"After creating this scheduled task for persistence, the Trojan will begin communicating with its C2 server.","Persistence, Command and Control, ",TRUE,Persistence,"[Trojan, create, scheduled task for persistence], [Trojan, begin communicating with, its C2 server]","{After creating ... C2 server:[
+        [SUBJECT:Trojan, RELATION:create, OBJECT:scheduled task],
+        [SUBJECT:Trojan, RELATION:communicate, OBJECT:C2 server],
+        [SUBJECT:Trojan, RELATION:begin, OBJECT:communicate],
+        [SUBJECT:Trojan, RELATION:connect, OBJECT:C2 server]
+    ]
+}"
+"After breaking in via RDP , theattacker attempts to escalate their privileges to the level of Domain Admin so that they can deploy SamSam malware across an entire network , just like a sysadmin deploying regular software .","Lateral Movement, Privilege Escalation, ",TRUE,Lateral Movement,"    [attacker, escalate their privileges to the level of, Domain Admin],   [attacker, deploy, SamSam],","{After breaking ... regular software:[
+    [SUBJECT:attacker, RELATION:escalate, OBJECT:Domain Admin],
+    [SUBJECT:attacker, RELATION:deploy, OBJECT:SamSam malware],
+    [SUBJECT:attacker, RELATION:deploy, OBJECT:regular software]
+]}"
+These instances of TrickBot were configured to use their network propagation modules (sharedll and tabdll) that rely on SMB and harvested credentials to propagate to additional systems in the network.,"Lateral Movement, ",TRUE,Lateral Movement,"[TrickBot, use, sharedll and tabdll],[TrickBot, rely on, SMB],[TrickBot, use, harvested credentials][TrickBot, propagate to, additional systems in the network]","{These instances ... the network.:[
+    [SUBJECT:TrickBot instances, RELATION:were configured to use, OBJECT:network propagation modules],
+    [SUBJECT:network propagation modules, RELATION:rely on, OBJECT:SMB],
+    [SUBJECT:network propagation modules, RELATION:harvest, OBJECT:credentials],
+    [SUBJECT:TrickBot instances, RELATION:propagate, OBJECT:additional systems],
+    [SUBJECT:additional systems, RELATION:in, OBJECT:the network]
+  ]
+}"
+"Once the file is uploaded to a shared folder , it is automatically synced across the users , deploying the malicious payload throughout multiple devices .","Lateral Movement, ",TRUE,Lateral Movement,"    [payload, is deployed throughout, multiple devices],    [file, is uploaded to, a shared folder],
+    [file, is synced across, users],","{Once the ... devices .:[
+        [SUBJECT:file, RELATION:upload, OBJECT:shared folder],
+        [SUBJECT:file, RELATION:sync, OBJECT:users],
+        [SUBJECT:payload, RELATION:deploy, OBJECT:multiple devices],
+        [SUBJECT:users, RELATION:sync, OBJECT:file],
+        [SUBJECT:users, RELATION:receive, OBJECT:malicious payload]
+    ]
+}"
+"After the infection , the malwarereports to CnC servers , then starts a lateral movement phase .","Lateral Movement, Command and Control, ",TRUE,Lateral Movement,"    [malware,report to, CnC servers],
+    [malware, begin, lateral movement phase]","{After the ... movement phase:[
+    [SUBJECT:malware, RELATION:reports to, OBJECT:CnC servers],
+    [SUBJECT:malware, RELATION:starts, OBJECT:lateral movement phase]
+  ]
+}"
+"As well as brute forcing passwords, Emotet can also spread to additional computers using a spam module that it installs on infected victim machines.","Lateral Movement, Credential Access, ",TRUE,Lateral Movement,"[Emotet,spread, to additional computers],[Emotet,use, spam module]","{As well ... victim machines:[
+    [SUBJECT:Emotet, RELATION:can spread to, OBJECT:additional computers],
+    [SUBJECT:Emotet, RELATION:use, OBJECT:a spam module],
+    [SUBJECT:Emotet, RELATION:brute force, OBJECT:passwords],
+    [SUBJECT:Emotet, RELATION:install, OBJECT:on infected victim machines]
+  ]
+}"
+"From its first appearance, SamSam used batch files for certain operations while spreading across the network and executing the ransomware.","Impact, Lateral Movement, ",TRUE,Lateral Movement,"[SamSam, use, batch files],    [SamSam,spreading across, the network],
+    [SamSam, executed, ransomware]","{From its ... the ransomware:[
+    [SUBJECT:SamSam, RELATION:used, OBJECT:batch files],
+    [SUBJECT:SamSam, RELATION:spread, OBJECT:network],
+    [SUBJECT:SamSam, RELATION:execute, OBJECT:ransomware]
+  ]
+}"
+APT40 uses compromised credentials to log on to other connected systems and conduct reconnaissance.,"Lateral Movement, ",TRUE,Lateral Movement,"[APT40, use, compromised credentials],[APT40, log on, to other connected systems], [APT40, conduct, reconnaissance]","{APT40 uses ... conduct reconnaissance.:[
+    [SUBJECT:APT40, RELATION:uses, OBJECT:compromised credentials],
+    [SUBJECT:APT40, RELATION:log on to, OBJECT:other connected systems],
+    [SUBJECT:APT40, RELATION:conduct, OBJECT:reconnaissance]
+]}"
+It also creates an autorun.inf file in the root folder of the removable drive.,"Lateral Movement, ",TRUE,Lateral Movement," [It, creates, an autorun.inf file],
+    [autorun.inf file, is located in, the root folder],","{It also ... removable drive.:[
+    [SUBJECT:It, RELATION:creates, OBJECT:autorun.inf file],
+    [SUBJECT:file, RELATION:is, OBJECT:in the root folder of the removable drive]
+  ]
+}"
+The C2 server was able to obtain the ?fakename? and ?fakepass? credentials entered into the authentication dialog box displayed when opening DarkHydrus? Word document.,"Lateral Movement, ",TRUE,Lateral Movement," [cyber threat actor, use, stolen credentials], [cyber threat actor, use, WMIC], [cyber threat actor, use, Microsoft SysInternals utility], [cyber threat actor, use, psexec.exe]","{The cyber ... the network.:[
+        [SUBJECT:cyber threat actor, RELATION:use, OBJECT:stolen credentials],
+        [SUBJECT:cyber threat actor, RELATION:use, OBJECT:WMIC tool],
+        [SUBJECT:cyber threat actor, RELATION:use, OBJECT:psexec.exe],
+        [SUBJECT:cyber threat actor, RELATION:access, OBJECT:other systems],
+        [SUBJECT:cyber threat actor, RELATION:attack, OBJECT:network]
+    ]
+}"
+"Once the threat actor mapped the network and obtained credentials (through net use), they began to move laterally.","Lateral Movement, Credential Access, ",TRUE,Lateral Movement,"  [threat actor, mapped, the network],
+        [threat actor, obtained, credentials],   [threat actor, began, to move laterally]","{Once the ... move laterally:[
+    [SUBJECT:threat actor, RELATION:mapped, OBJECT:network],
+    [SUBJECT:threat actor, RELATION:obtained, OBJECT:credentials],
+    [SUBJECT:threat actor, RELATION:use, OBJECT:net use],
+    [SUBJECT:threat actor, RELATION:move, OBJECT:laterally]
+]}"
+It will also try to use known SSH hosts and the SSH key on the machine to spread latterly.,"Lateral Movement, ",TRUE,Lateral Movement,"  [It, try to use,  known SSH hosts],
+    [It, try to use,   SSH key on the machine],","{It will ... spread latterly:[
+    (It, will try to use, known SSH hosts),
+    (It, will use, the SSH key on the machine),
+    (It, will spread, latterly)
+  ]
+}"
+"Again , an attacker would use a specially crafted web page to launch their attack and would end up with the access rights of the currently logged in user or could run arbitrary code on the target system .","Privilege Escalation, Execution, ",TRUE,Privilege Escalation," [Attacker, run, arbitrary code on the target system],        [Attacker, use, a specially crafted web page ],","{An attacker ... target system:[
+        [Subject: An attacker, Relation: use an exploit, Object: a specially crafted web page],
+        [Subject: An attacker, Relation: launch an attack, Object: their attack],
+        [Subject: An attacker, Relation: end up with, Object: the access rights of the currently logged in user],
+        [Subject: An attacker, Relation: could run, Object: arbitrary code],
+        [Subject: An attacker, Relation: on, Object: the target system]
+    ]
+}"
+"The Ramen worm , for example , uses known system exploits to gain root access to vulnerable Linux servers and then employs ELF binaries and shell scripts to find other servers to infect .","Lateral Movement,Privilege Escalation ",TRUE,Privilege Escalation,"[Ramen worm, uses known system exploits to gain root access, Linux servers],[Ramen worm, employs, ELF binaries and shell scripts]","{The Ramen ... infect .:[
+    [SUBJECT:The Ramen worm, RELATION:uses, OBJECT:known system exploits],
+    [SUBJECT:The Ramen worm, RELATION:gains, OBJECT:root access],
+    [SUBJECT:The Ramen worm, RELATION:employs, OBJECT:ELF binaries],
+    [SUBJECT:The Ramen worm, RELATION:employs, OBJECT:shell scripts],
+    [SUBJECT:The Ramen worm, RELATION:finds, OBJECT:other servers],
+    [SUBJECT:The Ramen worm, RELATION:infects, OBJECT:other servers]
+  ]
+}"
+A malicious app can trigger a Binder call and leverage this flaw to give unauthorized privileges to attackers who can then execute arbitrary code within the audio server .,"Execution, Privilege Escalation, ",TRUE,Privilege Escalation," [Malicious app, Triggers, Binder call],    [Binder call, Leverages, Flaw],
+    [Attackers, Execute, Arbitrary code]","{A malicious ... server .:[
+    [SUBJECT:malicious app, RELATION:trigger, OBJECT:Binder call],
+    [SUBJECT:Binder call, RELATION:leverage, OBJECT:flaw],
+    [SUBJECT:attackers, RELATION:give, OBJECT:unauthorized privileges],
+    [SUBJECT:attackers, RELATION:execute, OBJECT:arbitrary code],
+    [SUBJECT:attackers, RELATION:within, OBJECT:audio server]
+  ]
+}"
+ZeuS also makes registry changes to ensure that it starts up with Administrator privileges:,"Privilege Escalation, Execution, ",TRUE,Privilege Escalation,"[ZeuS, makes,registry changes],[registry changes,ensure,starts up with Administrator privileges]","[ZeuS, makes registry changes, to ensure]"
+"The Trojan exploited a vulnerability to root the phone , sending SMS messages and silently joining an IRC channel to receive further commands from remote hackers .","Privilege Escalation, Command and Control, ",TRUE,Privilege Escalation,"[Trojan, exploited,  a vulnerability],[Trojan, root,  phone],[Trojan, sent ,SMS messages],[Trojan, silently join, an IRC channel],","To apply the rules to the given entity extraction result, I will need to process the information youve provided. However, the information youve provided is not in the correct format for me to directly process it. The data should be presented as a list of tuples, with each tuple representing a triple in the format `(subject, relation, object)`. Heres an example of how the data should look:```python[    (Trojan, exploit, vulnerability),    (Trojan, gain root access, phone),    (Trojan, send, SMS messages),    (Trojan, join, IRC channel),    (Trojan, receive, further commands),    (Trojan, from, remote hackers)]```Since the data is not in this format, I will need to parse the information youve provided and convert it into the correct format. However, since Im an AI language model, I cannot perform this kind of data transformation directly. Instead, I will guide you through the process so that you can transform the data into the correct format and then use it to create the final dictionary.Heres how you can transform the data:1. For each set of triples, extract the subject, relation, and object from each triple.2. Combine the subjects, relations, and objects into separate lists.3. Create a list of tuples, where each tuple is a triple in the format `(subject, relation, object)`.4. Remove any duplicates from the list of tuples.5. Ensure that each triple has exactly three elements.6. Create the final dictionary with the sentence as the key and the list of tuples as the value.Once you have the list of tuples in the correct format, you can use it to create the final dictionary. If you encounter any issues with this process, feel free to ask for further assistance.<|im_end|>"
+"This is a simple webshell that, similar to a China Chopper shell, allows direct execution on the system under the privileges of the account running the webserver.","Privilege Escalation, Execution, ",TRUE,Privilege Escalation,"[webshell, similar to, a China Chopper shell],[webshell, allows, direct execution on the system],[webshell, under the privileges of, the account running the webserver]","{This is ... the webserver.:[
+    [SUBJECT:This,RELATION:is a simple webshell,OBJECT:system],
+    [SUBJECT:webshell,RELATION:similar to,OBJECT:China Chopper shell],
+    [SUBJECT:webshell,RELATION:allow,OBJECT:direct execution on the system],
+    [SUBJECT:webshell,RELATION:under,OBJECT:privileges of the account running the webserver]
+  ]
+}"
+"By tunneling RDP traffic to the system, the attackers could gain both persistent access and privilege escalation using this simple and well-known exploit.","Persistence, Privilege Escalation, ",TRUE,Privilege Escalation,"  [RDP traffic, tunnel, the system],
+    [attackers, gain, persistent access],
+    [attackers, gain, privilege escalation],","{By tunneling ... well-known exploit:[
+    [SUBJECT:attacker, RELATION:tunnel, OBJECT:RDP traffic],
+    [SUBJECT:attacker, RELATION:gain, OBJECT:persistent access],
+    [SUBJECT:attacker, RELATION:gain, OBJECT:privilege escalation],
+    [SUBJECT:attackers, RELATION:use, OBJECT:RDP traffic],
+    [SUBJECT:attackers, RELATION:tunnel, OBJECT:system],
+    [SUBJECT:attackers, RELATION:exploit, OBJECT:simple and well-known exploit]
+  ]
+}"
+"By replacing the ?Sticky Keys? binary, C:\Windows\System32\sethc.exe, with the Windows Command Processor cmd.exe, the attackers then accessed a privileged Windows console session without authenticating to the system.","Privilege Escalation,",TRUE,Privilege Escalation,"    [attackers, accessed, privileged Windows console session], [attackers, replace, Sticky Keys binary]","   [SUBJECT:attacker, RELATION:access, OBJECT:privileged Windows console session],
+    [SUBJECT:attacker, RELATION:replace, OBJECT:?Sticky Keys? binary],
+    [SUBJECT:attacker, RELATION:replace, OBJECT:C:\\Windows\\System32\\sethc.exe],
+    [SUBJECT:attacker, RELATION:replace, OBJECT:Windows Command Processor cmd.exe],
+    [SUBJECT:attacker, RELATION:authenticate, OBJECT:system]"
+"The local administrator privileges obtained are used to run RemoteUtilities , a remote administration utility , on the infected system .","Privilege Escalation, Execution, ",TRUE,Privilege Escalation,"[local administrator privileges, are used to run, RemoteUtilities],","{The local ... system .:[
+    [SUBJECT:local administrator privileges, RELATION:obtain, OBJECT:the infected system],
+    [SUBJECT:local administrator privileges, RELATION:use, OBJECT:RemoteUtilities],
+    [SUBJECT:RemoteUtilities, RELATION:is, OBJECT:a remote administration utility],
+    [SUBJECT:RemoteUtilities, RELATION:run, OBJECT:on the infected system]
+  ]
+}"
+The script then attempted to add the newly created account to the administrators group for elevated privileges.,"Privilege Escalation, ",TRUE,Privilege Escalation,"  [script, attempted to add, the newly created account],  [account, add, to the administrators group],","{The script ... elevated privileges.:[
+        [SUBJECT:The script, RELATION:attempted to add, OBJECT:the newly created account],
+        [SUBJECT:newly created account, RELATION:add, OBJECT:the administrators group],
+        [SUBJECT:newly created account, RELATION:add, OBJECT:elevated privileges],
+        [SUBJECT:script, RELATION:attempted to add, OBJECT:newly created account],
+        [SUBJECT:script, RELATION:add, OBJECT:administrators group],
+        [SUBJECT:script, RELATION:for, OBJECT:elevated privileges]
+    ]
+}"
