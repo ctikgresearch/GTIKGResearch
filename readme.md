@@ -10,7 +10,7 @@ By uilizing LLM agent and segment processing with dual memory design, CTIKG cons
 ## Overview
 CTIKG contains three main components. The overview figure is shown below.
 
-![image](hhttps://i.imgur.com/klouXZu.jpeg)
+![image](https://i.imgur.com/klouXZu.jpeg)
 
 1. Short-term Memory Construction: Short-term Memory Construction deploys multiple
 LLM agents to extract all the knowledge within single CTI article segment in the form
