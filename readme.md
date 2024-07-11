@@ -7,6 +7,28 @@ With the fast-paced development of the Internet infrastructure and the increasin
 
 By uilizing LLM agent and segment processing with dual memory design, CTIKG constructs a security-oriented knowledge graph from numerous CTI articles, which has higher effectiveness than SOTA methods. It reveals the relationships among security-related entities and their behaviors across multiple articles, and further provides security-oriented community detection to help security analysts understand the knowledge of cyber threats more efficiently.
 
+## Updates
+- **[2024/07/10]** The paper “CTIKG: LLM-Powered Knowledge Graph Construction from Cyber Threat Intelligence” has been accepted by COLM 2024.
+- **[2024/04/30]** Introduced CTIKG for knowledge graph construction.
+
+
+## Publication
+Liangyi Huang and Xusheng Xiao. CTIKG: LLM-Powered Knowledge Graph Construction from Cyber Threat Intelligence
+In Proceedings of the First Conference on Language Modeling (COLM 2024), Philadelphia, PA, USA, Oct 2024.
+
+## Citation
+```BibTeX
+@inproceedings{
+huang2024ctikg,
+title={CTIKG: LLM-Powered Knowledge Graph Construction from Cyber Threat Intelligence},
+author={Liangyi Huang and Xusheng Xiao},
+booktitle={Proceedings of the First Conference on Language Modeling (COLM 2024)},
+year={2024},
+location={Philadelphia, PA, USA},
+month={October}
+}
+```
+
 ## Overview
 CTIKG contains three main components. The overview figure is shown below.
 
